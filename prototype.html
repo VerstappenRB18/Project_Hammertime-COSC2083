@@ -1,1 +1,85 @@
+<html>
+    <body>
+    <h3>Tools and Technologies</h3>
+    <p>Almost all of the software and tools used in this project are new to us as we are first-year students, 
+    but that excites us as we are eager to learn and implement these technologies in the near future.</p>
+    <p>The most important software that we used is Visual Studio Code (version 1.74.1) , 
+    which is the IDE that we used to code and edit our website, 
+    the software is free to use and is widely regarded to be the industry standard for coding all languages.</p>
+    <p>For collaboration, we used GitHub to host our repository and our website, which enables us to work together on the same project at different times. </p>
+    <p>We also used GitHub desktop (version 3.1.2) as an interface that lets us easily clone the repository and work on the project locally on our own desktop.</p> 
+    <p>The Canva platform was also used to create early design drafts of what we wanted our app to look like. 
+    Members Gia Bao and Minh Hoang specifically had experiences using this software in high school for their respective projects.</p>
+    <p>Assetto Corsa [18](version 1.16) was used to create the reference lap to showcase to the end user. 
+    Gia Bao and Huu Luan have had previous experiences using this application before and know the software well.</p>
+    <p>The Auto-Data.net API [4] is used as the main database for cars for our app. 
+    It contains an extensive amount of over 46000 separate detailed automotive technical specifications, more than 3000 car models and over 8400 generations.
+    This data is licensed and costs 75$ to use.</p>
+    <p>To display the desired racing track and put out the reference lap, the group collects and uses data from the website racingcircuits.info [5], 
+    as it contains useful information about the racing track, from the history of itself, 
+    to the circuit map and onboard videos of various drivers driving around the circuit.</p>
+    <h3>Testing</h3>
+    <p>Testing the app on a real track from the database is a critical step in establishing whether the app will assist increase lap time. 
+    It is critical to test the app on a track similar to the one on which the user will be racing, as this will provide the most accurate results.</p>
+    <p>To start our testing process, we will need to find people who are interested in racing and have already familiarized themself 
+    with the basic concepts of track racing and what to do. 
+    Setting up the track is the next step in testing the program. 
+    This includes determining the layout of the track, the number of laps, and any other specifications that may be required. 
+    Once the track is set up, the user can then begin testing the app. 
+    To begin, the user needs to run a few laps without the app to establish a baseline lap time. 
+    This will offer the user an estimate of how fast they can go without using the app.</p>
+    <p>After that, the user can begin testing the software. The user should run a few laps with the app active.
+    This will show the user how much the app is assisting them in improving their lap time. 
+    The user should also keep track of any modifications in their driving style that the app may suggest.</p>
+    <p>After testing the app on the track, the user can compare their lap times with and without the app.
+    This gives the user an excellent idea of how much the program is assisting them in improving their lap time. 
+    If the software is assisting them in improving their lap time, they can continue to use the app to increase their performance.</p>
+    <p>Overall, testing the app on a real track from the database is a critical step in deciding whether the software will help improve lap time. 
+    Running a few laps with and without the app can provide a decent indicator of how much the software is assisting the user in improving their lap time.
+    If the software is assisting in improving lap time, that means our app is working as intended</p>
+    <h3>Risks</h3>
+    <h4>1. 	Technical dangers</h4>
+    <p>There are a variety of danger considerations to take into account because HammerTime has so many functions. 
+    The following list of potential mistakes has a high likelihood of occurring:</p>
+    <h4>Unreliable driver input</h4>
+    <p>It's possible that the driver entered the incorrect data because they lack expertise and don't understand what understeer and oversteer are. 
+    The method employed to distinguish shifts also makes it susceptible to noise pollution from the driver, other passengers, or outside sources. 
+    Additionally, depending on where the track is, the GPS utilized for speed estimation may not be accurate. 
+    HammerTime won't be able to provide the driver with pertinent feedback as a result of all these elements taken together.</p>
+    <p>It's unfortunate that we have to live with this flaw because we wanted to make the app as user-friendly as possible by utilizing readily available sensors on your phone, 
+    such as the microphone to distinguish shifts and GPS to estimate speed. 
+    That being said, some solutions that can be looked into include an AI for noise cancellation and it can filter out just the specific frequencies of the upshifts and downshifts.</p>
+    <h4>Erroneous track layout</h4>
+    <p>Due to improvements that cannot be seen with the human eye (such as the track modifications at the Circuit de Monaco) [21], 
+    given the size of the racing circuits database, the application may experience track layout issues. 
+    Unexpected lap times could result from an inaccurate track layout.</p>
+    <p>Possible solutions include updating the database frequently, 
+    checking the layout for errors whenever a change is announced, and making sure the database is updated to reflect the change.</p>
+    <h4>Erroneous track facts</h4>
+    <p>Given the abundance of reports on various racing circuits, the likelihood of inaccurate track information 
+    and recorded lap times in the database may have an impact on the app's output accuracy, 
+    leading to user confusion and a potential for unexpected results.</p>
+    <h4>Improperly detects certain sorts of corners.</h4>
+    <p>Due to the similarities between the bends on race circuits, it is likely that the program will incorrectly identify the corners. 
+    The way users or drivers use the brake and throttle when performing a flying lap may have an impact on the false detection.
+    To produce desired outcomes, numerous testing instances are required.</p>
+    <p>Potential remedies: It is necessary to improve machine learning and add more patterns for it to recognize, 
+    such as corner characteristics and how drivers typically handle different types of bends with things like throttle input and steering angle.</p>
+    <h4>User enters the wrong vehicle's manufacturer and model</h4>
+    <p>There is a small chance that a user will enter the incorrect configuration of their car into the app, 
+    confusing the program into simulating the incorrect reference lap for the user to watch and for the app to provide feedback. 
+    This is due to the large number of cars and their make and model even having minor variations.</p>
+    <p>Future databases may be used to solve this problem by forcing users to enter their car's VIN (Vehicle Identification Number), 
+    however this method is less user-friendly and can be annoying.</p>
+    <h4>Due to track conditions, it may occasionally be impossible to follow the reference lap.</h4>
+    <p>It could be challenging for the software to recreate an exact reference lap due to the variety of data that needs to be processed, 
+    such as the track and weather conditions of the real-world track and weather conditions.</p>
+    <p>Possible solutions: Additional work may be needed to import weather conditions into the app and the simulator; however, only specific conditions, 
+    such as light showers or soaking wet,
+    can be imported at this time because it will take a long time to implement the ability to accurately capture temperatures and the amount of rain.</p>
+    <h4>II. Other dangers</h4>
+    <p>In addition to hazards associated with the app, there are other dangers, such as those caused by human mistake.</p>
+    
 
+    </body>
+</html>
