@@ -1,0 +1,15 @@
+h1, .container {
+    font-weight: normal;
+    color: black;
+    font-family: monospace;
+  }
+
+h2, .container {
+  font-weight: normal;
+  color: black;
+  font-family: monospace;
+}
+  
+.container {
+  text-align: center;
+}
