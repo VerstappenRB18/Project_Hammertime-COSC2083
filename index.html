@@ -230,6 +230,80 @@
     Together we formed a group called “Le Men”, which took inspiration from the prestigious endurance racing “24 Hours of Le Mans” [20]. 
     Although we opened to other options such as Student ID reader application, an online library card, when discussing which IT project that should be targeted, Le Men finally decided to work on the project that focused on motorsport, especially four-wheel racing. 
     And that was when “Project Hammertime” took its first steps.</p>
+    <h4>Shift detection</h4>
+    <p>Regarding this particular feature, right from the start it was renegade to the back to make room for the core feature, the lap time comparisons and feedback system. The purpose of shift detection is to further increase the accuracy of feedback. 
+    Initially, the plan was to implement a machine learning algorithm to detect the common patterns of a shift, either upshifts or downshifts, the idea still stands, but some pitfalls did appear. Firstly, implementations, we have vastly underestimated the difficulties of implementing such features. 
+    Data has to be gathered from thousands of different sources, cleaned up for the algorithm to function as intended. Speaking of machine learning, Le Men consists of only first-year students that have no prior experience in such an advanced method. 
+    A large portion of time and resources were invested into researching on how to construct a functional algorithm, or at the very least, a rough prototype. Alas, that was not possible in such a short span of time. </p>
+    <h4>Oversteer and understeer inputs</h4>
+    <p>Originally, this feature was for drivers to input oversteer and understeer at corners that such events have happened. This was conceived to cope with the limitation of the smartphones, and further increase the accuracy of feedback. 
+    These inputs are relatively simple to implement as there were only two options available with no further variable other than the drivers themselves. 
+    The UI for this particular feature had been made. Though it does not serve in other higher functions.</p>
+    <h4>Speed estimation using GPS</h4>
+    <p>Speed estimation based on GPS data was thought up in conjunction with the feedback system, assisting the application in creating a more relevant review of a lap. 
+    The feature is rather simple as it requires only GPS data that is easily accessible via smartphones as this is an application, 
+    given the user agreed to do so. Though given the time constraint, we were not able to implement it to the fullest extent.</p>
+    <h4>Car database</h4>
+    <p>In the beginning, project HammerTime intended to feature a massive database with the help of an API from Auto-Data.net [4] but unfortunately, 
+    we weren’t able to implement this API in the timeframe of the product due to the fact that the licensing of the API was way pricier than we would have expected so the group got together and decided to make a basic UI prototype of this feature instead. 
+    The aim is to gather more support for the project in the future to make it worthwhile for the group to invest in the license to implement it soon.</p>
+    <h4>Feedback to compare with reference lap</h4>
+    <p>A core feature of the HammerTime app was for the app to compare the lap time of the user to a reference lap using Assetto Corsa’s generated AI lap [18] and give out feedback accordingly. 
+    While this seemed like a good idea at the time, through later discussion we found out that the processing power required to run such an intensive app/game like Assetto Corsa was simply too much for a phone to handle and we collectively decided to put this feature on the backburner to focus on creating a UI prototype on how this would have worked if the processing power was in place. 
+    The aim in the future is to find another suitable way to generate a reference lap for the user to watch and take lessons from.</p>
+    <h4>Input race tracks and put out reference laps</h4>
+    <p>For this feature to work properly, we looked for the database pool that contained accurate and up-to-date information of every racing circuit, from temporary to permanent. 
+    So we came across a website called racingcircuits.info, which provided us with a wide range of facts and details of each circuit. 
+    Although we had a useful source for the database, we couldn’t implement it into the project due to unaffordable licensing and API database. 
+    Therefore, a rough prototype was designed to demonstrate how the process worked. Along with details of racing circuits, we also took time to research when and how the fastest lap time of each circuit was recorded, by reading through all the articles from official organizations such as Porsche, Formula One,... and other automobile manufacturers. 
+    Given that we could attract enough attention and investment, a proper interface might be implemented in the future so that users can visualize which tracks they want to have a ride.</p>
+    <h4>Feature machine learning for different types of corners</h4>
+    <p>The key feature of a racing circuit is a series of corners, and with that we needed to understand how corners influenced a lap time, and different types of corners had different cornering speed. 
+    So we took a lot of time to read through all the scientific research papers from people who worked in the automobile industry. 
+    And in order to make the application detected which type of corner, we wanted to implement machine learning into practice, but it turned out the feature of machine learning required a lot of research and testing, to which we didn’t have enough knowledge and time to understand the concept. 
+    As a result, we could only afford to write a brief overview of how machine learning would work in the application and give an example on how to collect data for the process.</p>
+    <h3>Roles</h3>
+    <p>For HammerTime, for such a small and relatively inexperienced team, it was decided from the start that there was no definitive role, just a rough guideline of each members’ responsibilities, with heavy emphasis on assistance, flexibility. With this model, members were allowed to constantly jump between roles, so as to educate themselves on the fundamentals of various tools and features. 
+    Though it has to be said that Le Men has two managing positions, an executive manager, and a co-manager. To elaborate, due to the scale of HammerTime, a second managing role was conceived to minimize scope creep, and further increase proficiency in leadership.</p>
+    <h3>Scope and limitations</h3>
+    <p>The scope of a project is an important factor to consider during the brainstorming phase. It helps to define the boundaries of the project and ensure that the project is achievable within the given timeframe and budget. 
+    It also helps to ensure that the project is focused on the desired outcome and that all those involved are aware of the scope of the project.</p>
+    <p>Our scope for this project will be:</p>
+    <ul>
+        <li>A basic idea of how the app works</li>
+        <li>Illustrations on the user's interface</li>
+    </ul>
+    <p>What our project will not include:</p>
+    <ul>
+        <li>A working prototype</li>
+        <li>Machine learning implementations</li>
+    </ul>
+    <p>I. Limitations of using phone sensors to collect input</p>
+    <p>The limitations of using a phone's sensors to obtain driving inputs and provide improvement suggestions depend on the type of phone and its sensors. 
+    Most smartphones are equipped with a variety of sensors that can detect motion, location, and other environmental elements. 
+    These sensors can detect multiple driving actions, including speed, acceleration, braking, and steering.</p>
+    <p>Using these sensors, a phone may provide input on driving performance, including acceleration and braking rates, as well as steering accuracy. 
+    This input can be utilized to provide improvement ideas, such as when to slow down or take a break.</p>
+    <p>However, there are limitations to employing a phone's sensors to provide driving feedback and improvement ideas. 
+    For instance, external factors, such as the weather or road conditions, can impact the precision of the sensors. 
+    Moreover, the sensors may be unable to accurately detect some driving inputs, such as gear changes or turns.</p>
+    <p>To optimize the use of a phone's sensors for driving inputs and providing ideas for improvement, it is essential to ensure that the phone has the most up-to-date sensors and that they are calibrated. 
+    In order for the sensors to reliably detect driving inputs, it is also crucial that the phone is properly secured in the vehicle. 
+    In order for the phone to receive real-time data and provide more accurate feedback and recommendations, it must be linked to the internet.</p>
+    <p>II. Machine learning implementation</p>
+    <p>Creating an app with machine learning can be a daunting task for students with a limited time frame. 
+    Machine learning is a complex field that requires a lot of time and effort to understand and implement. 
+    It is not something that can be done quickly or easily, and it requires a lot of research and experimentation to get it right.</p>
+    <p>The first limitation of implementing machine learning in creating an app with a limited time frame is the lack of knowledge and experience. 
+    Machine learning is a complex field that requires a deep understanding of algorithms, data structures, and programming languages. 
+    It is not something that can be learned overnight, and it requires a lot of practice and experience to become proficient. 
+    Additionally, access to the necessary resources or tools to properly implement machine learning is not widely available.</p>
+    <p>The second limitation is the amount of time available. Machine learning is a time-consuming process that requires a lot of trial and error. 
+    It is not something that can be done quickly, and it requires a lot of patience and dedication to get it right. 
+    Additionally, there are a lot of different algorithms and techniques to research and understand and there is simply not enough time.</p>
+    <p>Overall, implementing machine learning in creating an app with a limited time frame can be a difficult task. 
+    It requires a lot of knowledge, experience and time to get it right. 
+    However, with the right resources and dedication, it is possible to create an app with machine learning in a limited time frame.</p>
     <h3>Tools and Technologies</h3>
     <p>Almost all of the software and tools used in this project are new to us as we are first-year students, 
     but that excites us as we are eager to learn and implement these technologies in the near future.</p>
