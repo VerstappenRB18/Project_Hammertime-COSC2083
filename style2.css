@@ -1,0 +1,32 @@
+.b {
+        background: #f9f9f9 none repeat scroll 0 0;
+        border: 1px solid #aaa;
+        display: table;
+        margin: auto;
+        resize: both;
+        overflow: auto;
+        float: 200px;
+    }
+
+h4, .b {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 200%;
+         
+}
+
+ol li, .b {
+    width: 95%;
+    word-wrap: break-word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: 100%;
+    list-style: none;
+  }
+
+ol li ul li, .b{
+    width: 95%;
+    word-wrap: break-word;
+    text-align: justify;
+    font-size: 100%;
+  }
