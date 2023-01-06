@@ -194,40 +194,40 @@
      Due to varying lap lengths, lap times on this circuit are not comparable, as the majority of laps are completed 200 meters shorter for safety reasons <a href="#ref8">[8]</a>. 
      The fastest lap time ever recorded by a road-legal production car is 6:35.183, set by Mercedes-AMG One driven by DTM driver Maro Engel <a href="#ref9">[9]</a>.</p>
     <p>III. Machine learning implementation for various types of corners</p>
-    <p>In terms of racing, corners are indispensable components of a course. There are various types of corners on the track, and knowing how to navigate them is crucial for achieving a good lap time. There are primarily three types of corners: Prior to a long straight, a short straight, and a series of corners <a href="#ref10    ">[10]</a>.
-    The racing line is the optimal route through a circuit: if adhered to, it will produce the quickest time at the highest average speed [11]. When approaching a corner on the track, there are three phases or sections; the first section is the braking portion, during which the car must sufficiently decelerate in preparation for the turn-in point.
+    <p>In terms of racing, corners are indispensable components of a course. There are various types of corners on the track, and knowing how to navigate them is crucial for achieving a good lap time. There are primarily three types of corners: Prior to a long straight, a short straight, and a series of corners <a href="#ref10">[10]</a>.
+    The racing line is the optimal route through a circuit: if adhered to, it will produce the quickest time at the highest average speed <a href="#ref11">[11]</a>. When approaching a corner on the track, there are three phases or sections; the first section is the braking portion, during which the car must sufficiently decelerate in preparation for the turn-in point.
     The segment between the turn-in point and the apex point, which is the inside midpoint of the corner, constitutes the second division of the racing line at a corner. 
-    After the point of turn-in, the driver aims for the apex point. From the apex point onwards, the final section of the racing line in a corner is where the driver must gradually accelerate out of the corner while still turning and aiming for the outside apex [12].
+    After the point of turn-in, the driver aims for the apex point. From the apex point onwards, the final section of the racing line in a corner is where the driver must gradually accelerate out of the corner while still turning and aiming for the outside apex <a href="#ref12">[12]</a>.
     For the application to function flawlessly, a machine learning concept will be used to identify the various types of corners.
-    Using a data set of onboard videos protected by Formula One Digital Media Limited [13], a variety of Formula One drivers negotiating the same corner on the same track will be categorized.</p>
+    Using a data set of onboard videos protected by Formula One Digital Media Limited <a href="#ref13">[13]</a>, a variety of Formula One drivers negotiating the same corner on the same track will be categorized.</p>
     <p>IV. Cornering speed evaluation</p>
-    <p>In conjunction with satellite navigation systems, which are now standard in the majority of smartphones, the application can pinpoint when a shift is made and the approximate speed at which the vehicle is traveling through the corner [14]. 
+    <p>In conjunction with satellite navigation systems, which are now standard in the majority of smartphones, the application can pinpoint when a shift is made and the approximate speed at which the vehicle is traveling through the corner <a href="#ref14">[14]</a>. 
     With all of the available datasets, the application is able to compare the driver's lap to a simulated one and provide the necessary feedback to improve lap time.</p>
     <p>V. Downshift and upshift instructions</p>
     <p>Although each vehicle is unique in its own way, the driver is ultimately responsible for the vehicle's performance on the track. Each vehicle has a transmission to transfer the energy produced by the engine to the drive axle. As the engine produces more power, 
-    the crankshaft within the engine also accelerates, increasing the revolutions per minute (rpm) to the point before the engine’s limit, which is represented by a red line on the tachometer (or the rev gauge) on the dashboard [15].
+    the crankshaft within the engine also accelerates, increasing the revolutions per minute (rpm) to the point before the engine’s limit, which is represented by a red line on the tachometer (or the rev gauge) on the dashboard <a href="#ref15">[15]</a>.
     There are numerous transmission types, but the most common are manual gearbox, which requires the driver to change gears via a clutch pedal, automatic gearbox, which can shift gears automatically, and a continuous variable transmission (CVT), which has no physical gears.
     For track work, a conventional manual gearbox is recommended because it provides the driver with a more engaging experience and greater control over the vehicle, despite the fact that an automatic system would typically result in faster times.
-    A CVT, on the other hand, lacks immediate throttle response and is incapable of handling higher torque loads. [16]</p>
+    A CVT, on the other hand, lacks immediate throttle response and is incapable of handling higher torque loads. <a href="#ref16">[16]</a></p>
     <p>To get the most power out of the engine, it is recommended to shift near or at the redline, as shifting too early can slow acceleration and shifting too late may reduce the car's durability. 
     To distinguish between shifts, the app utilizes sounds produced by the vehicle; as the rpm approaches redline, the sound becomes louder; during an upshift, the sound abruptly stops; and as the rpm drops, the sound becomes softer.
     The sound produced by a downshift is the exact opposite of that produced by an upshift; after a downshift, the sound will become quieter and spike as the rpm increases.
     A machine learning algorithm will be utilized to analyze and differentiate the patterns of each action.</p>
     <p>VI. Understeer/oversteer suggestions</p>
     <p>Some automobiles struggle to maintain traction at high speeds, resulting in either oversteer or understeer. In RWD vehicles, oversteer occurs when the rear tires lose traction, causing the vehicle to turn more than intended. 
-    In contrast, understeering occurs when the front-end slips, rendering the vehicle incapable of turning into a corner. This condition is most prevalent in FWD and AWD vehicles. [17] 
+    In contrast, understeering occurs when the front-end slips, rendering the vehicle incapable of turning into a corner. This condition is most prevalent in FWD and AWD vehicles. <a href="#ref17">[17]</a> 
     Since this is track driving, the driver desires as much traction as possible in order to put the power down; losing traction can cause the vehicle to veer off the track or, in the worst case, careen into the barricade. 
     Additionally, one must consider the condition of the tires, as this can have a substantial impact on lap times. Loss of tire traction will result in wheel spin, thereby accelerating tire wear; consequently, the vehicle will struggle to put the power down. 
     Due to the limitations of current smartphone technology, this data will be entered only after a lap has been completed.</p>
     <p>VII. According feedback with the reference lap</p>
-    <p>The software will be able to provide suitable corner-by-corner feedback in comparison to the reference lap developed by Assetto Corsa [18], one of the most accurate racing simulators utilized by top industry professionals [19]. 
+    <p>The software will be able to provide suitable corner-by-corner feedback in comparison to the reference lap developed by Assetto Corsa <a href="#ref18">[18]</a>, one of the most accurate racing simulators utilized by top industry professionals <a href="#ref19">[19]</a>. 
     Once the lap has been recorded, the application will use telemetry data from both the reference lap and the user's lap to compare and provide comments. 
     The feedback comprises information such as the downshifts and upshifts prior to entering a turn, the angle and steering input of the corner entry, and whether or not the apex was reached. 
     It identifies areas in which the lap time can be improved and provides advice for doing so.</p>
     <h3 id="Plans and Progress">Plans and progression</h3>
     <p>Before “Project HammerTime” came into life, the group had already wanted to create a project that fulfill our passion to motorsport. At first, there were three members (Gia Bao, Huu Luan and Minh Hoang) who already showed a huge interest in car racing so everyone got along very easily.
     Then in the same tutorial session, we also welcomed Viet Bao, an avid gamer who had enthusiasm for UI design. Though Viet Bao had an obscure view on car racing, he didn’t waste much time to go onboard. 
-    Together we formed a group called “Le Men”, which took inspiration from the prestigious endurance racing “24 Hours of Le Mans” [20]. 
+    Together we formed a group called “Le Men”, which took inspiration from the prestigious endurance racing “24 Hours of Le Mans” <a href="#ref20">[20]</a>. 
     Although we opened to other options such as Student ID reader application, an online library card, when discussing which IT project that should be targeted, Le Men finally decided to work on the project that focused on motorsport, especially four-wheel racing. 
     And that was when “Project Hammertime” took its first steps.</p>
     <h4>Shift detection</h4>
@@ -244,11 +244,11 @@
     The feature is rather simple as it requires only GPS data that is easily accessible via smartphones as this is an application, 
     given the user agreed to do so. Though given the time constraint, we were not able to implement it to the fullest extent.</p>
     <h4>Car database</h4>
-    <p>In the beginning, project HammerTime intended to feature a massive database with the help of an API from Auto-Data.net [4] but unfortunately, 
+    <p>In the beginning, project HammerTime intended to feature a massive database with the help of an API from Auto-Data.net <a href="#ref4">[4]</a> but unfortunately, 
     we weren’t able to implement this API in the timeframe of the product due to the fact that the licensing of the API was way pricier than we would have expected so the group got together and decided to make a basic UI prototype of this feature instead. 
     The aim is to gather more support for the project in the future to make it worthwhile for the group to invest in the license to implement it soon.</p>
     <h4>Feedback to compare with reference lap</h4>
-    <p>A core feature of the HammerTime app was for the app to compare the lap time of the user to a reference lap using Assetto Corsa’s generated AI lap [18] and give out feedback accordingly. 
+    <p>A core feature of the HammerTime app was for the app to compare the lap time of the user to a reference lap using Assetto Corsa’s generated AI lap <a href="#ref18">[18]</a> and give out feedback accordingly. 
     While this seemed like a good idea at the time, through later discussion we found out that the processing power required to run such an intensive app/game like Assetto Corsa was simply too much for a phone to handle and we collectively decided to put this feature on the backburner to focus on creating a UI prototype on how this would have worked if the processing power was in place. 
     The aim in the future is to find another suitable way to generate a reference lap for the user to watch and take lessons from.</p>
     <h4>Input race tracks and put out reference laps</h4>
@@ -314,12 +314,12 @@
     <p>We also used GitHub desktop (version 3.1.2) as an interface that lets us easily clone the repository and work on the project locally on our own desktop.</p> 
     <p>The Canva platform was also used to create early design drafts of what we wanted our app to look like. 
     Members Gia Bao and Minh Hoang specifically had experiences using this software in high school for their respective projects.</p>
-    <p>Assetto Corsa [18](version 1.16) was used to create the reference lap to showcase to the end user. 
+    <p>Assetto Corsa <a href="#ref18">[18]</a>(version 1.16) was used to create the reference lap to showcase to the end user. 
     Gia Bao and Huu Luan have had previous experiences using this application before and know the software well.</p>
-    <p>The Auto-Data.net API [4] is used as the main database for cars for our app. 
+    <p>The Auto-Data.net API <a href="#ref4">[4]</a> is used as the main database for cars for our app. 
     It contains an extensive amount of over 46000 separate detailed automotive technical specifications, more than 3000 car models and over 8400 generations.
     This data is licensed and costs 75$ to use.</p>
-    <p>To display the desired racing track and put out the reference lap, the group collects and uses data from the website racingcircuits.info [5], 
+    <p>To display the desired racing track and put out the reference lap, the group collects and uses data from the website racingcircuits.info <a href="#ref5">[5]</a>, 
     as it contains useful information about the racing track, from the history of itself, 
     to the circuit map and onboard videos of various drivers driving around the circuit.</p>
     <h3 id="Testing">Testing</h3>
@@ -354,7 +354,7 @@
     such as the microphone to distinguish shifts and GPS to estimate speed. 
     That being said, some solutions that can be looked into include an AI for noise cancellation and it can filter out just the specific frequencies of the upshifts and downshifts.</p>
     <h4>Erroneous track layout</h4>
-    <p>Due to improvements that cannot be seen with the human eye (such as the track modifications at the Circuit de Monaco) [21], 
+    <p>Due to improvements that cannot be seen with the human eye (such as the track modifications at the Circuit de Monaco) <a href="#ref21">[21]</a>, 
     given the size of the racing circuits database, the application may experience track layout issues. 
     Unexpected lap times could result from an inaccurate track layout.</p>
     <p>Possible solutions include updating the database frequently, 
