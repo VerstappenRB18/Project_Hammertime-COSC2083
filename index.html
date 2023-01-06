@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Project Hammertime</title>
+        <title>Project HammerTime</title>
             <link rel="stylesheet" href="style1.css">
             <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png">
     </head>
     <body>
         <div>
@@ -171,29 +172,29 @@
     <p>Since our group consists of members who are interested in the arts of car racing, we want to put our IT knowledge combined with rudimentary ideas of auto racing into practice.
      Therefore, we collectively as a group decided to create a mobile application called “Project Hammertime”, a platform that assists aspiring racing drivers by guiding them how to conquer the racing track with their machinery.</p>
     <p>As a team, we all have a strong enthusiasm for racing. This project is really interesting for us because all of us have been following racing for the longest time and seeing all of the professional drivers doing a perfect lap right in front of our eyes,
-     e.g Lewis Hamilton in the Formula 1 Singapore Grand Prix 2018 [1] was really mesmerizing and we aim to help people start their journey on becoming better at racing.</p>
+     e.g Lewis Hamilton in the Formula 1 Singapore Grand Prix 2018 <a href="#ref1">[1]</a> was really mesmerizing and we aim to help people start their journey on becoming better at racing.</p>
     <p>We also chose to do this project because we think this is a unique product, as we do not see any other competitors or similar systems available elsewhere.
-     The closest thing to this is Codemaster’s and Electronic Art’s RaceNet [2], which compares two lap times together and shows the user the differences in lap time 
-     but this is only available in the F1 2021 [2] and F1 22 [2] video game and not in the real world like with our project.</p>
+     The closest thing to this is Codemaster’s and Electronic Art’s RaceNet <a href="#ref2">[2]</a>, which compares two lap times together and shows the user the differences in lap time 
+     but this is only available in the F1 2021 <a href="#ref2">[2]</a> and F1 22 <a href="#ref2">[2]</a> video game and not in the real world like with our project.</p>
      <h3 id="Detailed Description" style="color: orangered;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Detailed Description</h3>
     <h3 id="Aims">Aim</h3>
     <p>With this app we aim to:</p>
     <p>I. Feature a variety of car models:</p>
-    <p>Currently, there are a range of automobiles with various specifications, including variants of the same vehicle, such as the 2020 Alfa Romeo Stelvio, which has ten different configurations and modifications [3] . 
+    <p>Currently, there are a range of automobiles with various specifications, including variants of the same vehicle, such as the 2020 Alfa Romeo Stelvio, which has ten different configurations and modifications <a href="#ref3">[3]</a> . 
     The software contains data from Auto-API, Data.net's which has one of the largest databases on automobiles, in order to assist users in locating their car's make and model with the correct specification and variation. 
-    It includes approximately 46,000 distinct comprehensive automotive technical parameters, over 3000 vehicle models, and over 8400 generations [4]. Simply select the automobile's manufacturer and model (e.g: McLaren 720s). 
+    It includes approximately 46,000 distinct comprehensive automotive technical parameters, over 3000 vehicle models, and over 8400 generations <a href="#ref4">[4]</a>. Simply select the automobile's manufacturer and model (e.g: McLaren 720s). 
     And the application will contain all relevant information regarding the car's acceleration and deceleration capabilities, wheel drive, suspension arrangement, and brake kinds. 
     The software will therefore, in conjunction with the track selection, be able to generate a reference lap showing the fastest path around the track for the user to view prior to setting a personal lap time.</p>
     <p>II. Get reference laps based on the input race track</p>
     <p>Using data from racingcircuits.info, the application will have a large database containing a variety of racing tracks, such as Silverstone Circuit (United Kingdom) and Circuit de Spa-Francorchamps (Belgium).
-     These circuits typically appear on the Formula One Calendar for Grand Prix races. Users can examine accurate track maps, detailed histories, and onboard videos [5]. 
-     The reference lap time for each circuit can vary depending on the type of vehicle selected by the user. These lap times will be manually entered based on real-world racing data, or they will be generated using data from Assetto Corsa's sim racers [6]. 
-     Commonly used for setting lap records is the 20.8 km Nürburgring Nordschleife (Germany) due to its combination of long straights that allow a car to reach its top speed and narrow sections that generate extremely high g-forces [7].
-     Due to varying lap lengths, lap times on this circuit are not comparable, as the majority of laps are completed 200 meters shorter for safety reasons [8]. 
-     The fastest lap time ever recorded by a road-legal production car is 6:35.183, set by Mercedes-AMG One driven by DTM driver Maro Engel [9].</p>
+     These circuits typically appear on the Formula One Calendar for Grand Prix races. Users can examine accurate track maps, detailed histories, and onboard videos <a href="#ref5">[5]</a>. 
+     The reference lap time for each circuit can vary depending on the type of vehicle selected by the user. These lap times will be manually entered based on real-world racing data, or they will be generated using data from Assetto Corsa's sim racers <a href="#ref6">[6]</a>. 
+     Commonly used for setting lap records is the 20.8 km Nürburgring Nordschleife (Germany) due to its combination of long straights that allow a car to reach its top speed and narrow sections that generate extremely high g-forces <a href="#ref7">[7]</a>.
+     Due to varying lap lengths, lap times on this circuit are not comparable, as the majority of laps are completed 200 meters shorter for safety reasons <a href="#ref8">[8]</a>. 
+     The fastest lap time ever recorded by a road-legal production car is 6:35.183, set by Mercedes-AMG One driven by DTM driver Maro Engel <a href="#ref9">[9]</a>.</p>
     <p>III. Machine learning implementation for various types of corners</p>
-    <p>In terms of racing, corners are indispensable components of a course. There are various types of corners on the track, and knowing how to navigate them is crucial for achieving a good lap time. There are primarily three types of corners: Prior to a long straight, a short straight, and a series of corners [10].
+    <p>In terms of racing, corners are indispensable components of a course. There are various types of corners on the track, and knowing how to navigate them is crucial for achieving a good lap time. There are primarily three types of corners: Prior to a long straight, a short straight, and a series of corners <a href="#ref10    ">[10]</a>.
     The racing line is the optimal route through a circuit: if adhered to, it will produce the quickest time at the highest average speed [11]. When approaching a corner on the track, there are three phases or sections; the first section is the braking portion, during which the car must sufficiently decelerate in preparation for the turn-in point.
     The segment between the turn-in point and the apex point, which is the inside midpoint of the corner, constitutes the second division of the racing line at a corner. 
     After the point of turn-in, the driver aims for the apex point. From the apex point onwards, the final section of the racing line in a corner is where the driver must gradually accelerate out of the corner while still turning and aiming for the outside apex [12].
@@ -465,27 +466,27 @@
      Though there were pitfalls, we are still first-year students with the willingness to learn from mistakes, HammerTime has taught us the importance of collaboration.</p>
     <h2 id="References" style="color: orangered;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">References</h2>
-    <p>[1] 	L. Hamilton, "Lewis Hamilton's Stunning Pole Lap | 2018 Singapore Grand Prix," Formula 1 Productions, 15 09 2018. [Online]. Available: <a href="https://www.youtube.com/watch?v=AI3JzYCL3K0">https://www.youtube.com/watch?v=AI3JzYCL3K0</a>. [Accessed 30 12 2022].</p>
-    <p>[2] 	Electronic Arts, Codemasters, "RaceNet," Electronic Arts, Codemasters, [Online]. Available: <a href="https://racenet.com/">https://racenet.com/</a> . [Accessed 30 12 2022].</p>
-    <p>[3] 	"cars-data," 2009. [Online]. Available: <a href="cars-data.com">cars-data.com</a> . [Accessed 30 12 2022].</p>
-    <p>[4] 	AUTOMOTIVE DATA LTD, "Car Database API," AUTOMOTIVE DATA LTD, [Online]. Available: <a href="https://api.auto-data.net">https://api.auto-data.net</a>. [Accessed 30 12 2022].</p>
-    <p>[5] 	"Racing Circuits," RacingCircuits.info, [Online]. Available: <a href="https://www.racingcircuits.info/">https://www.racingcircuits.info/</a>. [Accessed 30 12 2022].</p>
-    <p>[6] 	"RSR Timing," [Online]. Available: <a href="http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..">http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..</a> [Accessed 30 12 2022].</p>
-    <p>[7] 	V. Shah, "Nürburgring: What makes the Green Hell vehicle development heaven?," 13 08 2021. [Online]. Available: <a href="https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..">https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..</a> [Accessed 30 12 2022].</p>
-    <p>[8] 	Wikipedia, "Track lengths and timing," [Online]. Available: <a href="https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..">https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..</a> [Accessed 30 12 2022].</p>
-    <p>[9] 	L. Edmondson, "F1-powered Mercedes-AMG One sets new Nurburgring lap record," 10 11 2022. [Online]. Available: <a href="https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record">https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record</a>. [Accessed 30 12 2022].</p>
-    <p>[10] Driver61, "Different Corners & Techniques," [Online]. Available: <a href="https://driver61.com/uni/different-corner-technique/">https://driver61.com/uni/different-corner-technique/</a>. [Accessed 30 12 2022].</p>
-    <p>[11] B.Beckman, "The physics of racing, part 5: Introduction to the racing line.," 1991. [Online]. Available: <a href="https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4">https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4</a>. [Accessed 30 12 2022].</p>
-    <p>[12] S. S. F. B. Keith Bugeja, "Telemetry-based Optimisation for User Training in Racing Simulators," 09 2017. [Online]. Available: <a href="https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.">https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.</a>. [Accessed 30 12 2022].</p>
-    <p>[13] "Legal Notice," [Online]. Available: <a href="https://www.formula1.com/en/toolbar/legal-notices.html.">https://www.formula1.com/en/toolbar/legal-notices.html.</a>. [Accessed 30 12 2022].</p>
-    <p>[14] RACEFANS, "Banned! Continuous Variable Transmission," 03 05 2007. [Online]. Available: <a href="https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/">https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/</a>. [Accessed 30 12 2022].</p>
-    <p>[15] "Vehicle Technologies Office, internal combustion car basics," 22 11 2013. [Online]. Available: <a href="https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.">https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.</a>. [Accessed 30 12 2022].</p>
-    <p>[16] ONOSOKKI, "Principle of speed measurement using GPS," [Online]. Available: <a href="https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm">https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm</a>. [Accessed 30 12 2022].</p>
-    <p>[17] Wikipedia, "Understeer and oversteer," 03 04 2022. [Online]. Available: <a href="https://en.m.wikipedia.org/wiki/Understeer_and_oversteer">https://en.m.wikipedia.org/wiki/Understeer_and_oversteer</a>. [Accessed 30 12 2022].</p>
-    <p>[18] KUNOS Simulazioni Srl , "Assetto Corsa," KUNOS Simulazioni Srl , 2018. [Online]. Available: <a href="https://www.assettocorsa.it/home-ac/">https://www.assettocorsa.it/home-ac/</a>. [Accessed 30 12 2022].</p>
-    <p>[19] K. Hackett, "Assetto Corsa: the most realistic racing simulator ever," 2016. [Online]. Available: <a href="https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647">https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647</a>. [Accessed 30 12 2022].</p>
-    <p>[20] ACO, "Official website 24 Heures du Mans," ACO, [Online]. Available: <a href="https://www.24h-lemans.com/en">https://www.24h-lemans.com/en</a>. [Accessed 30 12 2022].</p>
-    <p>[21] J. Leslie, "How The Monaco Grand Prix Circuit Has Changed Since Joining The F1 Calendar," 2013. [Online]. Available: <a href="https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/">https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/</a>. [Accessed 30 12 2022].</p>
+    <p id="ref1">[1] 	L. Hamilton, "Lewis Hamilton's Stunning Pole Lap | 2018 Singapore Grand Prix," Formula 1 Productions, 15 09 2018. [Online]. Available: <a href="https://www.youtube.com/watch?v=AI3JzYCL3K0">https://www.youtube.com/watch?v=AI3JzYCL3K0</a>. [Accessed 30 12 2022].</p>
+    <p id="ref2">[2] 	Electronic Arts, Codemasters, "RaceNet," Electronic Arts, Codemasters, [Online]. Available: <a href="https://racenet.com/">https://racenet.com/</a> . [Accessed 30 12 2022].</p>
+    <p id="ref3">[3] 	"cars-data," 2009. [Online]. Available: <a href="cars-data.com">cars-data.com</a> . [Accessed 30 12 2022].</p>
+    <p id="ref4">[4] 	AUTOMOTIVE DATA LTD, "Car Database API," AUTOMOTIVE DATA LTD, [Online]. Available: <a href="https://api.auto-data.net">https://api.auto-data.net</a>. [Accessed 30 12 2022].</p>
+    <p id="ref5">[5] 	"Racing Circuits," RacingCircuits.info, [Online]. Available: <a href="https://www.racingcircuits.info/">https://www.racingcircuits.info/</a>. [Accessed 30 12 2022].</p>
+    <p id="ref6">[6] 	"RSR Timing," [Online]. Available: <a href="http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..">http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..</a> [Accessed 30 12 2022].</p>
+    <p id="ref7">[7] 	V. Shah, "Nürburgring: What makes the Green Hell vehicle development heaven?," 13 08 2021. [Online]. Available: <a href="https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..">https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..</a> [Accessed 30 12 2022].</p>
+    <p id="ref8">[8] 	Wikipedia, "Track lengths and timing," [Online]. Available: <a href="https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..">https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..</a> [Accessed 30 12 2022].</p>
+    <p id="ref9">[9] 	L. Edmondson, "F1-powered Mercedes-AMG One sets new Nurburgring lap record," 10 11 2022. [Online]. Available: <a href="https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record">https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record</a>. [Accessed 30 12 2022].</p>
+    <p id="ref10">[10] Driver61, "Different Corners & Techniques," [Online]. Available: <a href="https://driver61.com/uni/different-corner-technique/">https://driver61.com/uni/different-corner-technique/</a>. [Accessed 30 12 2022].</p>
+    <p id="ref11">[11] B.Beckman, "The physics of racing, part 5: Introduction to the racing line.," 1991. [Online]. Available: <a href="https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4">https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4</a>. [Accessed 30 12 2022].</p>
+    <p id="ref12">[12] S. S. F. B. Keith Bugeja, "Telemetry-based Optimisation for User Training in Racing Simulators," 09 2017. [Online]. Available: <a href="https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.">https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.</a>. [Accessed 30 12 2022].</p>
+    <p id="ref13">[13] "Legal Notice," [Online]. Available: <a href="https://www.formula1.com/en/toolbar/legal-notices.html.">https://www.formula1.com/en/toolbar/legal-notices.html.</a>. [Accessed 30 12 2022].</p>
+    <p id="ref14">[14] RACEFANS, "Banned! Continuous Variable Transmission," 03 05 2007. [Online]. Available: <a href="https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/">https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/</a>. [Accessed 30 12 2022].</p>
+    <p id="ref15">[15] "Vehicle Technologies Office, internal combustion car basics," 22 11 2013. [Online]. Available: <a href="https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.">https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.</a>. [Accessed 30 12 2022].</p>
+    <p id="ref16">[16] ONOSOKKI, "Principle of speed measurement using GPS," [Online]. Available: <a href="https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm">https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm</a>. [Accessed 30 12 2022].</p>
+    <p id="ref17">[17] Wikipedia, "Understeer and oversteer," 03 04 2022. [Online]. Available: <a href="https://en.m.wikipedia.org/wiki/Understeer_and_oversteer">https://en.m.wikipedia.org/wiki/Understeer_and_oversteer</a>. [Accessed 30 12 2022].</p>
+    <p id="ref18">[18] KUNOS Simulazioni Srl , "Assetto Corsa," KUNOS Simulazioni Srl , 2018. [Online]. Available: <a href="https://www.assettocorsa.it/home-ac/">https://www.assettocorsa.it/home-ac/</a>. [Accessed 30 12 2022].</p>
+    <p id="ref19">[19] K. Hackett, "Assetto Corsa: the most realistic racing simulator ever," 2016. [Online]. Available: <a href="https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647">https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647</a>. [Accessed 30 12 2022].</p>
+    <p id="ref20">[20] ACO, "Official website 24 Heures du Mans," ACO, [Online]. Available: <a href="https://www.24h-lemans.com/en">https://www.24h-lemans.com/en</a>. [Accessed 30 12 2022].</p>
+    <p id="ref21">[21] J. Leslie, "How The Monaco Grand Prix Circuit Has Changed Since Joining The F1 Calendar," 2013. [Online]. Available: <a href="https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/">https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/</a>. [Accessed 30 12 2022].</p>
 
     </body>
 </html>
