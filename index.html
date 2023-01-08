@@ -6,6 +6,28 @@
             <link rel="stylesheet" href="style1.css">
             <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .column {
+                float: left;
+                width: 50%;
+                padding: 10px;
+                position: relative;
+                overflow: hidden;
+                
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                
+            }
+            img {
+                border: 5px solid;
+            }
+        </style>
     </head>
     <body>
         <div>
@@ -136,18 +158,18 @@
         </div>
         <div>                 
             <h2 id="Team profile" style="color: orangered; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Team Profile</h2>
-                <p>To Bao Minh Hoang (s3978554), the manager of Le Men. As a first-year student, Hoang’s experience within his field of study is limited,
+                <p style="text-align:justify">To Bao Minh Hoang (s3978554), the manager of Le Men. As a first-year student, Hoang’s experience within his field of study is limited,
                 Hoang’s goal when enrolling in this course is to become a software engineer, giving a clear purpose to further demonstrate, improve his skill, and knowledge. 
                 Moreover, years of leadership experience more than makes up for it. 
                 Additionally, with deep knowledge within the automotive industries and a passion for racing, Hoang will be able to perform his role sufficiently.</p>
-                <p>Ton That Huu Luan (s3958304), Le Men’s lead researcher. A first-year student, with various experience within the field of IT, including hardware, and programming.
+                <p style="text-align:justify">Ton That Huu Luan (s3958304), Le Men’s lead researcher. A first-year student, with various experience within the field of IT, including hardware, and programming.
                 Compounded with his dream of becoming a F1 engineer, Luan understands the role of technology, especially the software aspect, in the development of racing machines. 
                 Moreover, his extensive knowledge within the racing series, most notably F1, gives him insights that even members of Le Men are unaware of. 
                 Additionally, Luan’s enthusiasm for the project has proven his worth for the title.</p>
-                <p>Nguyen Vinh Gia Bao (s3986287), Le Men’s lead developer. Though a first-year student, his knowledge of programming and development are above the requirements of this course.
+                <p style="text-align:justify">Nguyen Vinh Gia Bao (s3986287), Le Men’s lead developer. Though a first-year student, his knowledge of programming and development are above the requirements of this course.
                 Additionally, Bao’s absolute determination to be an engineer for the prestigious automotive brand, Porsche, have been a fuel for his endeavors to become the absolute best in his field.
                 With Bao’s proven knowledge of the fundamentals of track performance and clear enthusiasm towards HammerTime, making Bao an excellent choice for his role.</p> 
-                <p>Le Viet Bao (s3979654), Le Men’s co-manager. A first-year student, currently enrolling in RMIT’s Information Technology bachelor program, Viet Bao’s experience within this field is limited, though he was not chosen for this role based on his experience.
+                <p style="text-align:justify">Le Viet Bao (s3979654), Le Men’s co-manager. A first-year student, currently enrolling in RMIT’s Information Technology bachelor program, Viet Bao’s experience within this field is limited, though he was not chosen for this role based on his experience.
                 The scale of HammerTime is extensive, so it was decided among the group a second manager was needed to prevent extension over the predetermined scope, and Viet Bao’s skills are perfect for this role. 
                 Though lacking in his field of study, the knowledge of all other relevant fields more than makes up for it, including research, management. 
                 Additionally, Viet Bao’s adaptability and flexibility have proven him to be very capable, unafraid of changes and challenges Moreover, his determination to see Le Men success is the main driving force to push his limits and better himself. 
@@ -159,21 +181,21 @@
     <a href="https://github.com/VerstappenRB18/Project_Hammertime-COSC2083">https://github.com/VerstappenRB18/Project_Hammertime-COSC2083</a>
     <p>LeMen's Project HammerTime website:</p>
     <a href="https://verstappenrb18.github.io/Project_Hammertime-COSC2083/">https://verstappenrb18.github.io/Project_Hammertime-COSC2083/</a>
-    <p>The GitHub audit trail does not tell the whole story of our group work as it doesn’t account for the research process 
+    <p style="text-align:justify">The GitHub audit trail does not tell the whole story of our group work as it doesn’t account for the research process 
     and most of the report file being done and also with html being a new language for most of the members, 
     some are not proficient at it yet so some members might appear less on the audit trail or not at all because the task was handed to 2 members instead.</p>
     <h2 id="Project Description" style="color: orangered;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> Project Description</h2>
     <h3 id="Overview" style="color: orangered;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Overview</h3>
-    <p>Car, or automobile, has always been a fascinating machine which people can discuss altogether for hours.
+    <p style="text-align:justify">Car, or automobile, has always been a fascinating machine which people can discuss altogether for hours.
      The top speed, braking system, or every component that is assembled in a car always makes automobile enthusiasts intrigued.
      However, there is another aspect when a person driving the car wants to experience, which is car racing.</p>
-    <p>Since our group consists of members who are interested in the arts of car racing, we want to put our IT knowledge combined with rudimentary ideas of auto racing into practice.
+    <p style="text-align:justify">Since our group consists of members who are interested in the arts of car racing, we want to put our IT knowledge combined with rudimentary ideas of auto racing into practice.
      Therefore, we collectively as a group decided to create a mobile application called “Project Hammertime”, a platform that assists aspiring racing drivers by guiding them how to conquer the racing track with their machinery.</p>
-    <p>As a team, we all have a strong enthusiasm for racing. This project is really interesting for us because all of us have been following racing for the longest time and seeing all of the professional drivers doing a perfect lap right in front of our eyes,
+    <p style="text-align:justify">As a team, we all have a strong enthusiasm for racing. This project is really interesting for us because all of us have been following racing for the longest time and seeing all of the professional drivers doing a perfect lap right in front of our eyes,
      e.g Lewis Hamilton in the Formula 1 Singapore Grand Prix 2018 <a href="#ref1">[1]</a> was really mesmerizing and we aim to help people start their journey on becoming better at racing.</p>
-    <p>We also chose to do this project because we think this is a unique product, as we do not see any other competitors or similar systems available elsewhere.
+    <p style="text-align:justify">We also chose to do this project because we think this is a unique product, as we do not see any other competitors or similar systems available elsewhere.
      The closest thing to this is Codemaster’s and Electronic Art’s RaceNet <a href="#ref2">[2]</a>, which compares two lap times together and shows the user the differences in lap time 
      but this is only available in the F1 2021 <a href="#ref2">[2]</a> and F1 22 <a href="#ref2">[2]</a> video game and not in the real world like with our project.</p>
      <h3 id="Detailed Description" style="color: orangered;
@@ -181,92 +203,92 @@
     <h3 id="Aims">Aim</h3>
     <p>With this app we aim to:</p>
     <p>I. Feature a variety of car models:</p>
-    <p>Currently, there are a range of automobiles with various specifications, including variants of the same vehicle, such as the 2020 Alfa Romeo Stelvio, which has ten different configurations and modifications <a href="#ref3">[3]</a> . 
+    <p style="text-align:justify">Currently, there are a range of automobiles with various specifications, including variants of the same vehicle, such as the 2020 Alfa Romeo Stelvio, which has ten different configurations and modifications <a href="#ref3">[3]</a>. 
     The software contains data from Auto-API, Data.net's which has one of the largest databases on automobiles, in order to assist users in locating their car's make and model with the correct specification and variation. 
     It includes approximately 46,000 distinct comprehensive automotive technical parameters, over 3000 vehicle models, and over 8400 generations <a href="#ref4">[4]</a>. Simply select the automobile's manufacturer and model (e.g: McLaren 720s). 
     And the application will contain all relevant information regarding the car's acceleration and deceleration capabilities, wheel drive, suspension arrangement, and brake kinds. 
     The software will therefore, in conjunction with the track selection, be able to generate a reference lap showing the fastest path around the track for the user to view prior to setting a personal lap time.</p>
     <p>II. Get reference laps based on the input race track</p>
-    <p>Using data from racingcircuits.info, the application will have a large database containing a variety of racing tracks, such as Silverstone Circuit (United Kingdom) and Circuit de Spa-Francorchamps (Belgium).
+    <p style="text-align:justify">Using data from racingcircuits.info, the application will have a large database containing a variety of racing tracks, such as Silverstone Circuit (United Kingdom) and Circuit de Spa-Francorchamps (Belgium).
      These circuits typically appear on the Formula One Calendar for Grand Prix races. Users can examine accurate track maps, detailed histories, and onboard videos <a href="#ref5">[5]</a>. 
      The reference lap time for each circuit can vary depending on the type of vehicle selected by the user. These lap times will be manually entered based on real-world racing data, or they will be generated using data from Assetto Corsa's sim racers <a href="#ref6">[6]</a>. 
      Commonly used for setting lap records is the 20.8 km Nürburgring Nordschleife (Germany) due to its combination of long straights that allow a car to reach its top speed and narrow sections that generate extremely high g-forces <a href="#ref7">[7]</a>.
      Due to varying lap lengths, lap times on this circuit are not comparable, as the majority of laps are completed 200 meters shorter for safety reasons <a href="#ref8">[8]</a>. 
      The fastest lap time ever recorded by a road-legal production car is 6:35.183, set by Mercedes-AMG One driven by DTM driver Maro Engel <a href="#ref9">[9]</a>.</p>
     <p>III. Machine learning implementation for various types of corners</p>
-    <p>In terms of racing, corners are indispensable components of a course. There are various types of corners on the track, and knowing how to navigate them is crucial for achieving a good lap time. There are primarily three types of corners: Prior to a long straight, a short straight, and a series of corners <a href="#ref10">[10]</a>.
+    <p style="text-align:justify">In terms of racing, corners are indispensable components of a course. There are various types of corners on the track, and knowing how to navigate them is crucial for achieving a good lap time. There are primarily three types of corners: Prior to a long straight, a short straight, and a series of corners <a href="#ref10">[10]</a>.
     The racing line is the optimal route through a circuit: if adhered to, it will produce the quickest time at the highest average speed <a href="#ref11">[11]</a>. When approaching a corner on the track, there are three phases or sections; the first section is the braking portion, during which the car must sufficiently decelerate in preparation for the turn-in point.
     The segment between the turn-in point and the apex point, which is the inside midpoint of the corner, constitutes the second division of the racing line at a corner. 
     After the point of turn-in, the driver aims for the apex point. From the apex point onwards, the final section of the racing line in a corner is where the driver must gradually accelerate out of the corner while still turning and aiming for the outside apex <a href="#ref12">[12]</a>.
     For the application to function flawlessly, a machine learning concept will be used to identify the various types of corners.
     Using a data set of onboard videos protected by Formula One Digital Media Limited <a href="#ref13">[13]</a>, a variety of Formula One drivers negotiating the same corner on the same track will be categorized.</p>
     <p>IV. Cornering speed evaluation</p>
-    <p>In conjunction with satellite navigation systems, which are now standard in the majority of smartphones, the application can pinpoint when a shift is made and the approximate speed at which the vehicle is traveling through the corner <a href="#ref14">[14]</a>. 
+    <p style="text-align:justify">In conjunction with satellite navigation systems, which are now standard in the majority of smartphones, the application can pinpoint when a shift is made and the approximate speed at which the vehicle is traveling through the corner <a href="#ref14">[14]</a>. 
     With all of the available datasets, the application is able to compare the driver's lap to a simulated one and provide the necessary feedback to improve lap time.</p>
     <p>V. Downshift and upshift instructions</p>
-    <p>Although each vehicle is unique in its own way, the driver is ultimately responsible for the vehicle's performance on the track. Each vehicle has a transmission to transfer the energy produced by the engine to the drive axle. As the engine produces more power, 
+    <p style="text-align:justify">Although each vehicle is unique in its own way, the driver is ultimately responsible for the vehicle's performance on the track. Each vehicle has a transmission to transfer the energy produced by the engine to the drive axle. As the engine produces more power, 
     the crankshaft within the engine also accelerates, increasing the revolutions per minute (rpm) to the point before the engine’s limit, which is represented by a red line on the tachometer (or the rev gauge) on the dashboard <a href="#ref15">[15]</a>.
     There are numerous transmission types, but the most common are manual gearbox, which requires the driver to change gears via a clutch pedal, automatic gearbox, which can shift gears automatically, and a continuous variable transmission (CVT), which has no physical gears.
     For track work, a conventional manual gearbox is recommended because it provides the driver with a more engaging experience and greater control over the vehicle, despite the fact that an automatic system would typically result in faster times.
     A CVT, on the other hand, lacks immediate throttle response and is incapable of handling higher torque loads. <a href="#ref16">[16]</a></p>
-    <p>To get the most power out of the engine, it is recommended to shift near or at the redline, as shifting too early can slow acceleration and shifting too late may reduce the car's durability. 
+    <p style="text-align:justify">To get the most power out of the engine, it is recommended to shift near or at the redline, as shifting too early can slow acceleration and shifting too late may reduce the car's durability. 
     To distinguish between shifts, the app utilizes sounds produced by the vehicle; as the rpm approaches redline, the sound becomes louder; during an upshift, the sound abruptly stops; and as the rpm drops, the sound becomes softer.
     The sound produced by a downshift is the exact opposite of that produced by an upshift; after a downshift, the sound will become quieter and spike as the rpm increases.
     A machine learning algorithm will be utilized to analyze and differentiate the patterns of each action.</p>
     <p>VI. Understeer/oversteer suggestions</p>
-    <p>Some automobiles struggle to maintain traction at high speeds, resulting in either oversteer or understeer. In RWD vehicles, oversteer occurs when the rear tires lose traction, causing the vehicle to turn more than intended. 
+    <p style="text-align:justify">Some automobiles struggle to maintain traction at high speeds, resulting in either oversteer or understeer. In RWD vehicles, oversteer occurs when the rear tires lose traction, causing the vehicle to turn more than intended. 
     In contrast, understeering occurs when the front-end slips, rendering the vehicle incapable of turning into a corner. This condition is most prevalent in FWD and AWD vehicles. <a href="#ref17">[17]</a> 
     Since this is track driving, the driver desires as much traction as possible in order to put the power down; losing traction can cause the vehicle to veer off the track or, in the worst case, careen into the barricade. 
     Additionally, one must consider the condition of the tires, as this can have a substantial impact on lap times. Loss of tire traction will result in wheel spin, thereby accelerating tire wear; consequently, the vehicle will struggle to put the power down. 
     Due to the limitations of current smartphone technology, this data will be entered only after a lap has been completed.</p>
     <p>VII. According feedback with the reference lap</p>
-    <p>The software will be able to provide suitable corner-by-corner feedback in comparison to the reference lap developed by Assetto Corsa <a href="#ref18">[18]</a>, one of the most accurate racing simulators utilized by top industry professionals <a href="#ref19">[19]</a>. 
+    <p style="text-align:justify">The software will be able to provide suitable corner-by-corner feedback in comparison to the reference lap developed by Assetto Corsa <a href="#ref18">[18]</a>, one of the most accurate racing simulators utilized by top industry professionals <a href="#ref19">[19]</a>. 
     Once the lap has been recorded, the application will use telemetry data from both the reference lap and the user's lap to compare and provide comments. 
     The feedback comprises information such as the downshifts and upshifts prior to entering a turn, the angle and steering input of the corner entry, and whether or not the apex was reached. 
     It identifies areas in which the lap time can be improved and provides advice for doing so.</p>
     <h3 id="Plans and Progress">Plans and progression</h3>
-    <p>Before “Project HammerTime” came into life, the group had already wanted to create a project that fulfill our passion to motorsport. At first, there were three members (Gia Bao, Huu Luan and Minh Hoang) who already showed a huge interest in car racing so everyone got along very easily.
+    <p style="text-align:justify">Before “Project HammerTime” came into life, the group had already wanted to create a project that fulfill our passion to motorsport. At first, there were three members (Gia Bao, Huu Luan and Minh Hoang) who already showed a huge interest in car racing so everyone got along very easily.
     Then in the same tutorial session, we also welcomed Viet Bao, an avid gamer who had enthusiasm for UI design. Though Viet Bao had an obscure view on car racing, he didn’t waste much time to go onboard. 
     Together we formed a group called “Le Men”, which took inspiration from the prestigious endurance racing “24 Hours of Le Mans” <a href="#ref20">[20]</a>. 
     Although we opened to other options such as Student ID reader application, an online library card, when discussing which IT project that should be targeted, Le Men finally decided to work on the project that focused on motorsport, especially four-wheel racing. 
     And that was when “Project Hammertime” took its first steps.</p>
     <h4>Shift detection</h4>
-    <p>Regarding this particular feature, right from the start it was renegade to the back to make room for the core feature, the lap time comparisons and feedback system. The purpose of shift detection is to further increase the accuracy of feedback. 
+    <p style="text-align:justify">Regarding this particular feature, right from the start it was renegade to the back to make room for the core feature, the lap time comparisons and feedback system. The purpose of shift detection is to further increase the accuracy of feedback. 
     Initially, the plan was to implement a machine learning algorithm to detect the common patterns of a shift, either upshifts or downshifts, the idea still stands, but some pitfalls did appear. Firstly, implementations, we have vastly underestimated the difficulties of implementing such features. 
     Data has to be gathered from thousands of different sources, cleaned up for the algorithm to function as intended. Speaking of machine learning, Le Men consists of only first-year students that have no prior experience in such an advanced method. 
     A large portion of time and resources were invested into researching on how to construct a functional algorithm, or at the very least, a rough prototype. Alas, that was not possible in such a short span of time. </p>
     <h4>Oversteer and understeer inputs</h4>
-    <p>Originally, this feature was for drivers to input oversteer and understeer at corners that such events have happened. This was conceived to cope with the limitation of the smartphones, and further increase the accuracy of feedback. 
+    <p style="text-align:justify">Originally, this feature was for drivers to input oversteer and understeer at corners that such events have happened. This was conceived to cope with the limitation of the smartphones, and further increase the accuracy of feedback. 
     These inputs are relatively simple to implement as there were only two options available with no further variable other than the drivers themselves. 
     The UI for this particular feature had been made. Though it does not serve in other higher functions.</p>
     <h4>Speed estimation using GPS</h4>
-    <p>Speed estimation based on GPS data was thought up in conjunction with the feedback system, assisting the application in creating a more relevant review of a lap. 
+    <p style="text-align:justify">Speed estimation based on GPS data was thought up in conjunction with the feedback system, assisting the application in creating a more relevant review of a lap. 
     The feature is rather simple as it requires only GPS data that is easily accessible via smartphones as this is an application, 
     given the user agreed to do so. Though given the time constraint, we were not able to implement it to the fullest extent.</p>
     <h4>Car database</h4>
-    <p>In the beginning, project HammerTime intended to feature a massive database with the help of an API from Auto-Data.net <a href="#ref4">[4]</a> but unfortunately, 
+    <p style="text-align:justify">In the beginning, project HammerTime intended to feature a massive database with the help of an API from Auto-Data.net <a href="#ref4">[4]</a> but unfortunately, 
     we weren’t able to implement this API in the timeframe of the product due to the fact that the licensing of the API was way pricier than we would have expected so the group got together and decided to make a basic UI prototype of this feature instead. 
     The aim is to gather more support for the project in the future to make it worthwhile for the group to invest in the license to implement it soon.</p>
     <h4>Feedback to compare with reference lap</h4>
-    <p>A core feature of the HammerTime app was for the app to compare the lap time of the user to a reference lap using Assetto Corsa’s generated AI lap <a href="#ref18">[18]</a> and give out feedback accordingly. 
+    <p style="text-align:justify">A core feature of the HammerTime app was for the app to compare the lap time of the user to a reference lap using Assetto Corsa’s generated AI lap <a href="#ref18">[18]</a> and give out feedback accordingly. 
     While this seemed like a good idea at the time, through later discussion we found out that the processing power required to run such an intensive app/game like Assetto Corsa was simply too much for a phone to handle and we collectively decided to put this feature on the backburner to focus on creating a UI prototype on how this would have worked if the processing power was in place. 
     The aim in the future is to find another suitable way to generate a reference lap for the user to watch and take lessons from.</p>
     <h4>Input race tracks and put out reference laps</h4>
-    <p>For this feature to work properly, we looked for the database pool that contained accurate and up-to-date information of every racing circuit, from temporary to permanent. 
+    <p style="text-align:justify">For this feature to work properly, we looked for the database pool that contained accurate and up-to-date information of every racing circuit, from temporary to permanent. 
     So we came across a website called racingcircuits.info, which provided us with a wide range of facts and details of each circuit. 
     Although we had a useful source for the database, we couldn’t implement it into the project due to unaffordable licensing and API database. 
     Therefore, a rough prototype was designed to demonstrate how the process worked. Along with details of racing circuits, we also took time to research when and how the fastest lap time of each circuit was recorded, by reading through all the articles from official organizations such as Porsche, Formula One,... and other automobile manufacturers. 
     Given that we could attract enough attention and investment, a proper interface might be implemented in the future so that users can visualize which tracks they want to have a ride.</p>
     <h4>Feature machine learning for different types of corners</h4>
-    <p>The key feature of a racing circuit is a series of corners, and with that we needed to understand how corners influenced a lap time, and different types of corners had different cornering speed. 
+    <p style="text-align:justify">The key feature of a racing circuit is a series of corners, and with that we needed to understand how corners influenced a lap time, and different types of corners had different cornering speed. 
     So we took a lot of time to read through all the scientific research papers from people who worked in the automobile industry. 
     And in order to make the application detected which type of corner, we wanted to implement machine learning into practice, but it turned out the feature of machine learning required a lot of research and testing, to which we didn’t have enough knowledge and time to understand the concept. 
     As a result, we could only afford to write a brief overview of how machine learning would work in the application and give an example on how to collect data for the process.</p>
     <h3 id="Roles">Roles</h3>
-    <p>For HammerTime, for such a small and relatively inexperienced team, it was decided from the start that there was no definitive role, just a rough guideline of each members’ responsibilities, with heavy emphasis on assistance, flexibility. With this model, members were allowed to constantly jump between roles, so as to educate themselves on the fundamentals of various tools and features. 
+    <p style="text-align:justify">For HammerTime, for such a small and relatively inexperienced team, it was decided from the start that there was no definitive role, just a rough guideline of each members’ responsibilities, with heavy emphasis on assistance, flexibility. With this model, members were allowed to constantly jump between roles, so as to educate themselves on the fundamentals of various tools and features. 
     Though it has to be said that Le Men has two managing positions, an executive manager, and a co-manager. To elaborate, due to the scale of HammerTime, a second managing role was conceived to minimize scope creep, and further increase proficiency in leadership.</p>
     <h3 id="Scopes and Limits">Scope and limitations</h3>
-    <p>The scope of a project is an important factor to consider during the brainstorming phase. It helps to define the boundaries of the project and ensure that the project is achievable within the given timeframe and budget. 
+    <p style="text-align:justify">The scope of a project is an important factor to consider during the brainstorming phase. It helps to define the boundaries of the project and ensure that the project is achievable within the given timeframe and budget. 
     It also helps to ensure that the project is focused on the desired outcome and that all those involved are aware of the scope of the project.</p>
     <p>Our scope for this project will be:</p>
     <ul>
@@ -279,215 +301,235 @@
         <li>Machine learning implementations</li>
     </ul>
     <p>I. Limitations of using phone sensors to collect input</p>
-    <p>The limitations of using a phone's sensors to obtain driving inputs and provide improvement suggestions depend on the type of phone and its sensors. 
+    <p style="text-align:justify">The limitations of using a phone's sensors to obtain driving inputs and provide improvement suggestions depend on the type of phone and its sensors. 
     Most smartphones are equipped with a variety of sensors that can detect motion, location, and other environmental elements. 
     These sensors can detect multiple driving actions, including speed, acceleration, braking, and steering.</p>
-    <p>Using these sensors, a phone may provide input on driving performance, including acceleration and braking rates, as well as steering accuracy. 
+    <p style="text-align:justify">Using these sensors, a phone may provide input on driving performance, including acceleration and braking rates, as well as steering accuracy. 
     This input can be utilized to provide improvement ideas, such as when to slow down or take a break.</p>
-    <p>However, there are limitations to employing a phone's sensors to provide driving feedback and improvement ideas. 
+    <p style="text-align:justify">However, there are limitations to employing a phone's sensors to provide driving feedback and improvement ideas. 
     For instance, external factors, such as the weather or road conditions, can impact the precision of the sensors. 
     Moreover, the sensors may be unable to accurately detect some driving inputs, such as gear changes or turns.</p>
-    <p>To optimize the use of a phone's sensors for driving inputs and providing ideas for improvement, it is essential to ensure that the phone has the most up-to-date sensors and that they are calibrated. 
+    <p style="text-align:justify">To optimize the use of a phone's sensors for driving inputs and providing ideas for improvement, it is essential to ensure that the phone has the most up-to-date sensors and that they are calibrated. 
     In order for the sensors to reliably detect driving inputs, it is also crucial that the phone is properly secured in the vehicle. 
     In order for the phone to receive real-time data and provide more accurate feedback and recommendations, it must be linked to the internet.</p>
     <p>II. Machine learning implementation</p>
-    <p>Creating an app with machine learning can be a daunting task for students with a limited time frame. 
+    <p style="text-align:justify">Creating an app with machine learning can be a daunting task for students with a limited time frame. 
     Machine learning is a complex field that requires a lot of time and effort to understand and implement. 
     It is not something that can be done quickly or easily, and it requires a lot of research and experimentation to get it right.</p>
-    <p>The first limitation of implementing machine learning in creating an app with a limited time frame is the lack of knowledge and experience. 
+    <p style="text-align:justify">The first limitation of implementing machine learning in creating an app with a limited time frame is the lack of knowledge and experience. 
     Machine learning is a complex field that requires a deep understanding of algorithms, data structures, and programming languages. 
     It is not something that can be learned overnight, and it requires a lot of practice and experience to become proficient. 
     Additionally, access to the necessary resources or tools to properly implement machine learning is not widely available.</p>
-    <p>The second limitation is the amount of time available. Machine learning is a time-consuming process that requires a lot of trial and error. 
+    <p style="text-align:justify">The second limitation is the amount of time available. Machine learning is a time-consuming process that requires a lot of trial and error. 
     It is not something that can be done quickly, and it requires a lot of patience and dedication to get it right. 
     Additionally, there are a lot of different algorithms and techniques to research and understand and there is simply not enough time.</p>
-    <p>Overall, implementing machine learning in creating an app with a limited time frame can be a difficult task. 
+    <p style="text-align:justify">Overall, implementing machine learning in creating an app with a limited time frame can be a difficult task. 
     It requires a lot of knowledge, experience and time to get it right. 
     However, with the right resources and dedication, it is possible to create an app with machine learning in a limited time frame.</p>
     <h3 id="Tools and Technologies">Tools and Technologies</h3>
-    <p>Almost all of the software and tools used in this project are new to us as we are first-year students, 
+    <p style="text-align:justify">Almost all of the software and tools used in this project are new to us as we are first-year students, 
     but that excites us as we are eager to learn and implement these technologies in the near future.</p>
-    <p>The most important software that we used is Visual Studio Code (version 1.74.1) , 
+    <p style="text-align:justify">The most important software that we used is Visual Studio Code (version 1.74.1) , 
     which is the IDE that we used to code and edit our website, 
     the software is free to use and is widely regarded to be the industry standard for coding all languages.</p>
-    <p>For collaboration, we used GitHub to host our repository and our website, which enables us to work together on the same project at different times. </p>
-    <p>We also used GitHub desktop (version 3.1.2) as an interface that lets us easily clone the repository and work on the project locally on our own desktop.</p> 
-    <p>The Canva platform was also used to create early design drafts of what we wanted our app to look like. 
+    <p style="text-align:justify">For collaboration, we used GitHub to host our repository and our website, which enables us to work together on the same project at different times. </p>
+    <p style="text-align:justify">We also used GitHub desktop (version 3.1.2) as an interface that lets us easily clone the repository and work on the project locally on our own desktop.</p> 
+    <p style="text-align:justify">The Canva platform was also used to create early design drafts of what we wanted our app to look like. 
     Members Gia Bao and Minh Hoang specifically had experiences using this software in high school for their respective projects.</p>
-    <p>Assetto Corsa <a href="#ref18">[18]</a>(version 1.16) was used to create the reference lap to showcase to the end user. 
+    <p style="text-align:justify">Assetto Corsa <a href="#ref18">[18]</a>(version 1.16) was used to create the reference lap to showcase to the end user. 
     Gia Bao and Huu Luan have had previous experiences using this application before and know the software well.</p>
-    <p>The Auto-Data.net API <a href="#ref4">[4]</a> is used as the main database for cars for our app. 
+    <p style="text-align:justify">The Auto-Data.net API <a href="#ref4">[4]</a> is used as the main database for cars for our app. 
     It contains an extensive amount of over 46000 separate detailed automotive technical specifications, more than 3000 car models and over 8400 generations.
     This data is licensed and costs 75$ to use.</p>
-    <p>To display the desired racing track and put out the reference lap, the group collects and uses data from the website racingcircuits.info <a href="#ref5">[5]</a>, 
+    <p style="text-align:justify">To display the desired racing track and put out the reference lap, the group collects and uses data from the website racingcircuits.info <a href="#ref5">[5]</a>, 
     as it contains useful information about the racing track, from the history of itself, 
     to the circuit map and onboard videos of various drivers driving around the circuit.</p>
     <h3 id="Testing">Testing</h3>
-    <p>Testing the app on a real track from the database is a critical step in establishing whether the app will assist increase lap time. 
+    <p style="text-align:justify">Testing the app on a real track from the database is a critical step in establishing whether the app will assist increase lap time. 
     It is critical to test the app on a track similar to the one on which the user will be racing, as this will provide the most accurate results.</p>
-    <p>To start our testing process, we will need to find people who are interested in racing and have already familiarized themself 
+    <p style="text-align:justify">To start our testing process, we will need to find people who are interested in racing and have already familiarized themself 
     with the basic concepts of track racing and what to do. 
     Setting up the track is the next step in testing the program. 
     This includes determining the layout of the track, the number of laps, and any other specifications that may be required. 
     Once the track is set up, the user can then begin testing the app. 
     To begin, the user needs to run a few laps without the app to establish a baseline lap time. 
     This will offer the user an estimate of how fast they can go without using the app.</p>
-    <p>After that, the user can begin testing the software. The user should run a few laps with the app active.
+    <p style="text-align:justify">After that, the user can begin testing the software. The user should run a few laps with the app active.
     This will show the user how much the app is assisting them in improving their lap time. 
     The user should also keep track of any modifications in their driving style that the app may suggest.</p>
-    <p>After testing the app on the track, the user can compare their lap times with and without the app.
+    <p style="text-align:justify">After testing the app on the track, the user can compare their lap times with and without the app.
     This gives the user an excellent idea of how much the program is assisting them in improving their lap time. 
     If the software is assisting them in improving their lap time, they can continue to use the app to increase their performance.</p>
-    <p>Overall, testing the app on a real track from the database is a critical step in deciding whether the software will help improve lap time. 
+    <p style="text-align:justify">Overall, testing the app on a real track from the database is a critical step in deciding whether the software will help improve lap time. 
     Running a few laps with and without the app can provide a decent indicator of how much the software is assisting the user in improving their lap time.
     If the software is assisting in improving lap time, that means our app is working as intended</p>
     <h3 id="Risks">Risks</h3>
     <h4> I. Technical dangers</h4>
-    <p>There are a variety of danger considerations to take into account because HammerTime has so many functions. 
+    <p style="text-align:justify">There are a variety of danger considerations to take into account because HammerTime has so many functions. 
     The following list of potential mistakes has a high likelihood of occurring:</p>
     <h4>Unreliable driver input</h4>
-    <p>It's possible that the driver entered the incorrect data because they lack expertise and don't understand what understeer and oversteer are. 
+    <p style="text-align:justify">It's possible that the driver entered the incorrect data because they lack expertise and don't understand what understeer and oversteer are. 
     The method employed to distinguish shifts also makes it susceptible to noise pollution from the driver, other passengers, or outside sources. 
     Additionally, depending on where the track is, the GPS utilized for speed estimation may not be accurate. 
     HammerTime won't be able to provide the driver with pertinent feedback as a result of all these elements taken together.</p>
-    <p>It's unfortunate that we have to live with this flaw because we wanted to make the app as user-friendly as possible by utilizing readily available sensors on your phone, 
+    <p style="text-align:justify">It's unfortunate that we have to live with this flaw because we wanted to make the app as user-friendly as possible by utilizing readily available sensors on your phone, 
     such as the microphone to distinguish shifts and GPS to estimate speed. 
     That being said, some solutions that can be looked into include an AI for noise cancellation and it can filter out just the specific frequencies of the upshifts and downshifts.</p>
     <h4>Erroneous track layout</h4>
-    <p>Due to improvements that cannot be seen with the human eye (such as the track modifications at the Circuit de Monaco) <a href="#ref21">[21]</a>, 
+    <p style="text-align:justify">Due to improvements that cannot be seen with the human eye (such as the track modifications at the Circuit de Monaco) <a href="#ref21">[21]</a>, 
     given the size of the racing circuits database, the application may experience track layout issues. 
     Unexpected lap times could result from an inaccurate track layout.</p>
-    <p>Possible solutions include updating the database frequently, 
+    <p style="text-align:justify">Possible solutions include updating the database frequently, 
     checking the layout for errors whenever a change is announced, and making sure the database is updated to reflect the change.</p>
     <h4>Erroneous track facts</h4>
-    <p>Given the abundance of reports on various racing circuits, the likelihood of inaccurate track information 
+    <p style="text-align:justify">Given the abundance of reports on various racing circuits, the likelihood of inaccurate track information 
     and recorded lap times in the database may have an impact on the app's output accuracy, 
     leading to user confusion and a potential for unexpected results.</p>
     <h4>Improperly detects certain sorts of corners.</h4>
-    <p>Due to the similarities between the bends on race circuits, it is likely that the program will incorrectly identify the corners. 
+    <p style="text-align:justify">Due to the similarities between the bends on race circuits, it is likely that the program will incorrectly identify the corners. 
     The way users or drivers use the brake and throttle when performing a flying lap may have an impact on the false detection.
     To produce desired outcomes, numerous testing instances are required.</p>
-    <p>Potential remedies: It is necessary to improve machine learning and add more patterns for it to recognize, 
+    <p style="text-align:justify">Potential remedies: It is necessary to improve machine learning and add more patterns for it to recognize, 
     such as corner characteristics and how drivers typically handle different types of bends with things like throttle input and steering angle.</p>
     <h4>User enters the wrong vehicle's manufacturer and model</h4>
-    <p>There is a small chance that a user will enter the incorrect configuration of their car into the app, 
+    <p style="text-align:justify">There is a small chance that a user will enter the incorrect configuration of their car into the app, 
     confusing the program into simulating the incorrect reference lap for the user to watch and for the app to provide feedback. 
     This is due to the large number of cars and their make and model even having minor variations.</p>
-    <p>Future databases may be used to solve this problem by forcing users to enter their car's VIN (Vehicle Identification Number), 
+    <p style="text-align:justify">Future databases may be used to solve this problem by forcing users to enter their car's VIN (Vehicle Identification Number), 
     however this method is less user-friendly and can be annoying.</p>
     <h4>Due to track conditions, it may occasionally be impossible to follow the reference lap.</h4>
-    <p>It could be challenging for the software to recreate an exact reference lap due to the variety of data that needs to be processed, 
+    <p style="text-align:justify">It could be challenging for the software to recreate an exact reference lap due to the variety of data that needs to be processed, 
     such as the track and weather conditions of the real-world track and weather conditions.</p>
-    <p>Possible solutions: Additional work may be needed to import weather conditions into the app and the simulator; however, only specific conditions, 
+    <p style="text-align:justify">Possible solutions: Additional work may be needed to import weather conditions into the app and the simulator; however, only specific conditions, 
     such as light showers or soaking wet,
     can be imported at this time because it will take a long time to implement the ability to accurately capture temperatures and the amount of rain.</p>
     <h4>II. Other dangers</h4>
-    <p>In addition to hazards associated with the app, there are other dangers, such as those caused by human mistake.</p>
+    <p style="text-align:justify">In addition to hazards associated with the app, there are other dangers, such as those caused by human mistake.</p>
     <h4>1. Team problems</h4>
     <h4>a) Team rivalry:</h4>
-    <p>Originates from incompatibility (differences in attitude, values, etc.) or pointless competition
+    <p style="text-align:justify">Originates from incompatibility (differences in attitude, values, etc.) or pointless competition
         Can result in longer completion times, missed deadlines, etc.</p>
     <h4>b) Miscommunication:</h4>
-    <p>Since it is impractical to meet in person constantly, certain discussions must take place online. 
+    <p style="text-align:justify">Since it is impractical to meet in person constantly, certain discussions must take place online. 
     However, text messages are not always effective at communicating our objectives clearly, which might result in misunderstandings.</p>
     <h4>c) Member emigration</h4>
-    <p>Members may withdraw from the group, simply fail to show up for meetings,
+    <p style="text-align:justify">Members may withdraw from the group, simply fail to show up for meetings,
      or cease all communication as a result of unanticipated events, increasing the workload of the remaining members.</p>
-    <p>Possible solutions: All of the aforementioned issues may be avoided if team members communicated effectively enough.</p>
+    <p style="text-align:justify">Possible solutions: All of the aforementioned issues may be avoided if team members communicated effectively enough.</p>
     <h4>2. Project problems:</h4>
     <h4>a) Scope creep</h4>
-    <p>In cooperative projects, scope creep is a frequent problem. 
+    <p style="text-align:justify">In cooperative projects, scope creep is a frequent problem. 
     When modifications are implemented without consolidation or control mechanisms, it typically takes shape (i.e., change requests)</p>
-    <p>Possible remedies: Before implementing any changes to the scope, there should be meetings amongst the participants and control measures to prevent this problem. 
+    <p style="text-align:justify">Possible remedies: Before implementing any changes to the scope, there should be meetings amongst the participants and control measures to prevent this problem. 
     Members should also adhere completely to the project's established scope and not stray from it.</p>
     <h4>b) Flawed data</h4>
-    <p>Due to a lack of time and resources, the project's data could have an error margin that would affect how it was implemented.</p>
-    <p>Possible solutions: To improve accuracy, the error margin must be considered.</p>
+    <p style="text-align:justify">Due to a lack of time and resources, the project's data could have an error margin that would affect how it was implemented.</p>
+    <p style="text-align:justify">Possible solutions: To improve accuracy, the error margin must be considered.</p>
     <h4>c) Difficult progressions:</h4>
-    <p>Because of the limited time constraint, several project components (such as machine learning) cannot be implemented, rendering our projects into an unfinished concept.</p>
+    <p style="text-align:justify">Because of the limited time constraint, several project components (such as machine learning) cannot be implemented, rendering our projects into an unfinished concept.</p>
     <h3 id="Group processes and communications">Group processes and communications</h3>
-    <p>After the “Project Proposal” assignment, the group already established a mutual understanding and every member contributed their effort to the report successfully, as the tasks were equally assigned to each member.
+    <p style="text-align:justify">After the “Project Proposal” assignment, the group already established a mutual understanding and every member contributed their effort to the report successfully, as the tasks were equally assigned to each member.
     Therefore, the marks for the first assignment were satisfactory to all four members. Following the success of the aforementioned assignment, 
     the group wants to maintain the momentum and is eager to improve every aspect from the previous report.</p>
-    <p>For this Final Project, our group continues to divide and distribute the tasks equally to each member, based on their strength, weakness and the ability to complete the given work. 
+    <p style="text-align:justify">For this Final Project, our group continues to divide and distribute the tasks equally to each member, based on their strength, weakness and the ability to complete the given work. 
     Although the group understands that more tasks in this assignment will be done on a higher caliber, 
     every member is determined to perform well enough, follow the timetable closely and deliver the result as good as they can.</p>
-    <p>Every week, group members gather and discuss the progress of their assigned tasks, which will be evaluated by the group leader Minh Hoang. 
+    <p style="text-align:justify">Every week, group members gather and discuss the progress of their assigned tasks, which will be evaluated by the group leader Minh Hoang. 
     During the meeting, there were some conflicts due to misunderstanding and disagreement in ideas. 
     Although these heated arguments were quickly resolved, we collectively as a group want to minimize those unwelcome tensions, by actively listening to each member’s opinions and taking time to process them thoughtfully</p>
-    <p>Finally, in order to strengthen our mutual connections in the group, we occasionally host an online game party in which all members are encouraged to participate. 
+    <p style="text-align:justify">Finally, in order to strengthen our mutual connections in the group, we occasionally host an online game party in which all members are encouraged to participate. 
     We believe it’s an effective method to have a better understanding between group members so that we can perform our tasks with a clear mind.</p>
     <h2 id="Skills and Jobs" style="color: orangered;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Skills and Jobs</h2>
-    <p>For HammerTime, there is a heavy emphasis on machine learning, as core features lie solely on its functionality. Le Men will wholeheartedly welcome those who are competent with this technology. 
+    <p style="text-align:justify">For HammerTime, there is a heavy emphasis on machine learning, as core features lie solely on its functionality. Le Men will wholeheartedly welcome those who are competent with this technology. 
     Furthermore, one must be able to manage time, be respectful to other members, as well as enthusiasm in assisting others. Additionally, Le Men is a group of enthusiasts, so a passion for automotive performance, though not necessary, is recommended as it helps everyone to be at pace.</p>
     <h2 id="Project Outcome" style="color: orangered;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Project Outcome</h2>
-    <p>In its current state, project HammerTime is in its early stages and only UI sketches and prototypes have been made. The UI screens that have been developed are for the core features of our app, intended to give an idea of what the app will hopefully look like by the end of its development.
+    <p style="text-align:justify">In its current state, project HammerTime is in its early stages and only UI sketches and prototypes have been made. The UI screens that have been developed are for the core features of our app, intended to give an idea of what the app will hopefully look like by the end of its development.
      This app is certainly a very niche product for a certain group of users, it won’t be particularly useful for everyone out there so we don’t expect it to solve real life problems but it acts as a gateway for beginners to learn about racing and become as passionate as we are .
      The limitations of the project right now is that its only UI meaning you can not expect it to give you personalized accurate data and due to the restrictions of the skillset of the group, interaction can not be expected as well.
      In the future, if we were to revisit this project, we would want to get started on coding the app itself from the back-end to the front-end and fully visualize our vision of this app including getting the license for the API, importing race tracks and creating reference laps for the user.</p>
+     <p style="text-align:justify">The following photos are UI prototypes developed by members Le Viet Bao and To Bao Minh Hoang:</p>
+     <img class="center" src="img/Welcome screen.png" alt="Welcome screen">
+     <p style="text-align:center"><strong>The welcome screen</strong></p>
+     <br>
+     <img class="center" src="img/Create new session.png">
+     <p style="text-align:center"><strong>New session screen</strong></p>
+     <br>
+     <img class="center" src="img/In-_detail_analysis.png">
+    <p style="text-align:center"><strong>In-detail analysis of previous session</strong></p>
+    <br>
+    <img class="center" src="img/Session in progress.png">
+    <p style="text-align:center"><strong>Session in progress screen</strong></p>
+    <br>
+    <img class="center" src="img/oversteer.png">
+    <p style="text-align:center"><strong>Oversteer/Understeer input</strong></p>
     <h2 id="Reflection" style="color: orangered;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >Group Reflection</h2>
     <h3 id="Individual Reflection">Individual Reflection</h3>
     <h4>Ton That Huu Luan (s3958304)’s reflection:</h4>
-    <p>Being a first-year student at RMIT, the LeMen group was the first group I was a part of. Going into these group projects, I didn’t know what to expect, I have heard countless advice and stories from my seniors that group projects can be a very daunting task.
+    <p style="text-align:justify">Being a first-year student at RMIT, the LeMen group was the first group I was a part of. Going into these group projects, I didn’t know what to expect, I have heard countless advice and stories from my seniors that group projects can be a very daunting task.
      Despite hearing all of that I went into the process of finding my group with an open mind. Most of the group was found together by sharing a common interest, racing. Luckily, the topic and the project that we decided on was also based on racing so researching for the project was not a chore for anyone involved.
      Although the project and group work weren’t as smooth sailing as I would have hoped at times, these were mostly because of schedule clashes of members with personal reasons during planned group meetings.
      One thing that I found surprising throughout the time working with the group was how close we got with each other by the end of the trimester compared to the start, during the first weeks we just completed the tasks handed to us by the leader and parted ways shortly after but as the trimester went on, we hung out casually after our assignments are done.
      I am grateful for the chance to work with this group because it has taught me how working in a group really isn’t that daunting and the key to resolving an issue is just to talk with one another.</p>
     <h4>To Bao Minh Hoang (s3978554)’s reflection:</h4>
-    <p>For project HammerTIme, I had the role of being the leader of Le Men. It was probably the hardest project I had the pleasure to partake in. At every corner, my boundaries were breached, and each time that happened, the demand was more significant.
+    <p style="text-align:justify">For project HammerTIme, I had the role of being the leader of Le Men. It was probably the hardest project I had the pleasure to partake in. At every corner, my boundaries were breached, and each time that happened, the demand was more significant.
      To be honest, my experience within this field is lacking, to say the least. Most of the time, I had to rely on the members for advice and to push myself in the right direction, which was not what a leader should do.
      Personally, I could have done more for the team. I tried my hardest to learn the fundamentals of the essential tools and how to implement them into the form of an application, though it was not enough to meet the deadline.
      In contrast, the team performed exceptionally according to each’s skill levels, everyone was enthusiastic about the project, so eager to assist each other.
      I am proud of them, at the same time, ashamed of my performance, but from HammerTime, I have learned a lot of invaluable lessons, references that I can reliably recite at any point in the future, whether it is a future project or career path.</p>
     <h4>Nguyen Vinh Gia Bao (s3986287)’s reflection:</h4>
-    <p>For this “Project Hammertime” project, I was assigned with the task to research and conduct on the issues of “Input race tracks and put out reference laps” and “Feature machine learning for different types of corners”.
+    <p style="text-align:justify">For this “Project Hammertime” project, I was assigned with the task to research and conduct on the issues of “Input race tracks and put out reference laps” and “Feature machine learning for different types of corners”.
     Overall, I believe that I have completed the given task with high discipline and have produced satisfactory results that contributed to the group report.</p>
-    <p>Despite the difficulty and vastness in terms of the research objects’ scale, I consider myself to have done the work as well as I could with limited technology and a tight schedule. 
+    <p style="text-align:justify">Despite the difficulty and vastness in terms of the research objects’ scale, I consider myself to have done the work as well as I could with limited technology and a tight schedule. 
     In my opinion, the hardest part in my research was the “Machine learning” aspect, as it demanded a lot of effort and extensive knowledge to apply properly into the project, 
     which I couldn’t provide in the report with sufficient evidence but only a brief overview.</p>
-    <p>In the end, this group project has made a lot of impact on my study in a positive way. I know how to work both collaboratively and efficiently in a group. As the timetable to complete the project is strict on time, I have to organize and manage the work I’ve done appropriately.
+    <p style="text-align:justify">In the end, this group project has made a lot of impact on my study in a positive way. I know how to work both collaboratively and efficiently in a group. As the timetable to complete the project is strict on time, I have to organize and manage the work I’ve done appropriately.
      And finally, through this project, my passion for both motorsport and Information Technology has increased significantly, which I’m very delighted about.</p>
     <h4>Le Viet Bao (s3979654)’s reflection</h4>
-    <p>This group project has been a great learning experience for me in terms of managing my time better and gaining a better understanding of the IT world.
+    <p style="text-align:justify">This group project has been a great learning experience for me in terms of managing my time better and gaining a better understanding of the IT world.
      Working in a group has allowed me to learn how to better manage my time and prioritize tasks.
      Due to my habits from highschool, I always procrastinate and usually I can handle the workload and stress alone. But this being a group project, my procrastination leads to everyone having to bear unnecessary stress.
      After this experience, I have learned how to delegate tasks to other members of the group and how to effectively communicate with them to ensure that the project is completed on time.</p>
-    <p>I have also gained a better understanding of the IT world through this project.
+    <p style="text-align:justify">I have also gained a better understanding of the IT world through this project.
      Before this project, I had no clue how meticulous app development is and thought that anyone with a decent idea could turn it into an app.
      But through the experience of managing this project, I have learned a lot about the different technologies and tools that are used in the IT industry, working ethics, routines, as well as the different processes, procedures and how much hard work that is involved in developing a successful app.
      This has given me a better understanding of the IT industry and how it works.</p>
-    <p>Overall, this group project has been a great learning experience for me. It has helped me to better manage my time and gain a better understanding of the IT world. I am grateful for the opportunity to have worked on this project and I am looking forward to applying the skills and knowledge I have gained to future projects.</p>
+    <p style="text-align:justify">Overall, this group project has been a great learning experience for me. It has helped me to better manage my time and gain a better understanding of the IT world. I am grateful for the opportunity to have worked on this project and I am looking forward to applying the skills and knowledge I have gained to future projects.</p>
     <h3 id="Group's Reflection">Group's Reflection</h3>
-    <p>As a group, Le Men takes pride in their collaborative works. Right from the start, everyone has demonstrated their unique skill sets.
+    <p style="text-align:justify">As a group, Le Men takes pride in their collaborative works. Right from the start, everyone has demonstrated their unique skill sets.
      The initial planning phase went over seemingly without a hinch, since the team only consisted of automotive enthusiasts, which significantly reduced many problems regarding scope, aims, etc. the team knew the limits of the platform used and the fundamentals of performance driving, in turn. Furthermore, members of Le Men have a high sense of responsibility. When the roles were roughly determined, everyone was eager to learn and complete, even more notable was time management of individuals. Even then, there were still improvements that we all have to take note of was our lack of experience and knowledge within the field, not only that, we lacked the tools to even conceive some of the fundamentals. All of these problems stemmed from the fact that we vastly underestimated the challenges of designing a comparable system. Moreover, the idea was niche, to say the least, causing us to do our own research and build the system from the ground up.
      Though there were pitfalls, we are still first-year students with the willingness to learn from mistakes, HammerTime has taught us the importance of collaboration.</p>
     <h2 id="References" style="color: orangered;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">References</h2>
-    <p id="ref1">[1] 	L. Hamilton, "Lewis Hamilton's Stunning Pole Lap | 2018 Singapore Grand Prix," Formula 1 Productions, 15 09 2018. [Online]. Available: <a href="https://www.youtube.com/watch?v=AI3JzYCL3K0">https://www.youtube.com/watch?v=AI3JzYCL3K0</a>. [Accessed 30 12 2022].</p>
-    <p id="ref2">[2] 	Electronic Arts, Codemasters, "RaceNet," Electronic Arts, Codemasters, [Online]. Available: <a href="https://racenet.com/">https://racenet.com/</a> . [Accessed 30 12 2022].</p>
-    <p id="ref3">[3] 	"cars-data," 2009. [Online]. Available: <a href="cars-data.com">cars-data.com</a> . [Accessed 30 12 2022].</p>
-    <p id="ref4">[4] 	AUTOMOTIVE DATA LTD, "Car Database API," AUTOMOTIVE DATA LTD, [Online]. Available: <a href="https://api.auto-data.net">https://api.auto-data.net</a>. [Accessed 30 12 2022].</p>
-    <p id="ref5">[5] 	"Racing Circuits," RacingCircuits.info, [Online]. Available: <a href="https://www.racingcircuits.info/">https://www.racingcircuits.info/</a>. [Accessed 30 12 2022].</p>
-    <p id="ref6">[6] 	"RSR Timing," [Online]. Available: <a href="http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..">http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..</a> [Accessed 30 12 2022].</p>
-    <p id="ref7">[7] 	V. Shah, "Nürburgring: What makes the Green Hell vehicle development heaven?," 13 08 2021. [Online]. Available: <a href="https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..">https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..</a> [Accessed 30 12 2022].</p>
-    <p id="ref8">[8] 	Wikipedia, "Track lengths and timing," [Online]. Available: <a href="https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..">https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..</a> [Accessed 30 12 2022].</p>
-    <p id="ref9">[9] 	L. Edmondson, "F1-powered Mercedes-AMG One sets new Nurburgring lap record," 10 11 2022. [Online]. Available: <a href="https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record">https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record</a>. [Accessed 30 12 2022].</p>
-    <p id="ref10">[10] Driver61, "Different Corners & Techniques," [Online]. Available: <a href="https://driver61.com/uni/different-corner-technique/">https://driver61.com/uni/different-corner-technique/</a>. [Accessed 30 12 2022].</p>
-    <p id="ref11">[11] B.Beckman, "The physics of racing, part 5: Introduction to the racing line.," 1991. [Online]. Available: <a href="https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4">https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4</a>. [Accessed 30 12 2022].</p>
-    <p id="ref12">[12] S. S. F. B. Keith Bugeja, "Telemetry-based Optimisation for User Training in Racing Simulators," 09 2017. [Online]. Available: <a href="https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.">https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.</a>. [Accessed 30 12 2022].</p>
-    <p id="ref13">[13] "Legal Notice," [Online]. Available: <a href="https://www.formula1.com/en/toolbar/legal-notices.html.">https://www.formula1.com/en/toolbar/legal-notices.html.</a>. [Accessed 30 12 2022].</p>
-    <p id="ref14">[14] RACEFANS, "Banned! Continuous Variable Transmission," 03 05 2007. [Online]. Available: <a href="https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/">https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/</a>. [Accessed 30 12 2022].</p>
-    <p id="ref15">[15] "Vehicle Technologies Office, internal combustion car basics," 22 11 2013. [Online]. Available: <a href="https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.">https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.</a>. [Accessed 30 12 2022].</p>
-    <p id="ref16">[16] ONOSOKKI, "Principle of speed measurement using GPS," [Online]. Available: <a href="https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm">https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm</a>. [Accessed 30 12 2022].</p>
-    <p id="ref17">[17] Wikipedia, "Understeer and oversteer," 03 04 2022. [Online]. Available: <a href="https://en.m.wikipedia.org/wiki/Understeer_and_oversteer">https://en.m.wikipedia.org/wiki/Understeer_and_oversteer</a>. [Accessed 30 12 2022].</p>
-    <p id="ref18">[18] KUNOS Simulazioni Srl , "Assetto Corsa," KUNOS Simulazioni Srl , 2018. [Online]. Available: <a href="https://www.assettocorsa.it/home-ac/">https://www.assettocorsa.it/home-ac/</a>. [Accessed 30 12 2022].</p>
-    <p id="ref19">[19] K. Hackett, "Assetto Corsa: the most realistic racing simulator ever," 2016. [Online]. Available: <a href="https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647">https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647</a>. [Accessed 30 12 2022].</p>
-    <p id="ref20">[20] ACO, "Official website 24 Heures du Mans," ACO, [Online]. Available: <a href="https://www.24h-lemans.com/en">https://www.24h-lemans.com/en</a>. [Accessed 30 12 2022].</p>
-    <p id="ref21">[21] J. Leslie, "How The Monaco Grand Prix Circuit Has Changed Since Joining The F1 Calendar," 2013. [Online]. Available: <a href="https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/">https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/</a>. [Accessed 30 12 2022].</p>
-
+    <div class="row" style="font-size:small">
+        <div class="column">
+            <p id="ref1">[1] L. Hamilton, "Lewis Hamilton's Stunning Pole Lap | 2018 Singapore Grand Prix," Formula 1 Productions, 15 09 2018. [Online]. Available: <a href="https://www.youtube.com/watch?v=AI3JzYCL3K0">https://www.youtube.com/watch?v=AI3JzYCL3K0</a>. [Accessed 30 12 2022].</p>
+            <p id="ref2">[2] Electronic Arts, Codemasters, "RaceNet," Electronic Arts, Codemasters, [Online]. Available: <a href="https://racenet.com/">https://racenet.com/</a> . [Accessed 30 12 2022].</p>
+            <p id="ref3">[3] "cars-data," 2009. [Online]. Available: <a href="cars-data.com">cars-data.com</a> . [Accessed 30 12 2022].</p>
+            <p id="ref4">[4] AUTOMOTIVE DATA LTD, "Car Database API," AUTOMOTIVE DATA LTD, [Online]. Available: <a href="https://api.auto-data.net">https://api.auto-data.net</a>. [Accessed 30 12 2022].</p>
+            <p id="ref5">[5] "Racing Circuits," RacingCircuits.info, [Online]. Available: <a href="https://www.racingcircuits.info/">https://www.racingcircuits.info/</a>. [Accessed 30 12 2022].</p>
+            <p id="ref6">[6] "RSR Timing," [Online]. Available: <a href="http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..">http://www.radiators-champ.com/RSRLiveTiming/index.php?page=rank..</a> [Accessed 30 12 2022].</p>
+            <p id="ref7">[7] V. Shah, "Nürburgring: What makes the Green Hell vehicle development heaven?," 13 08 2021. [Online]. Available: <a href="https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..">https://www.carexpert.com.au/car-news/nurburgring-what-makes-the-green-hell-vehicle-development-heaven..</a> [Accessed 30 12 2022].</p>
+            <p id="ref8">[8] Wikipedia, "Track lengths and timing," [Online]. Available: <a href="https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..">https://en.wikipedia.org/wiki/List_of_N%C3%BCrburgring_Nordschleife_lap_times..</a> [Accessed 30 12 2022].</p>
+            <p id="ref9">[9] L. Edmondson, "F1-powered Mercedes-AMG One sets new Nurburgring lap record," 10 11 2022. [Online]. Available: <a href="https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record">https://www.espn.com/f1/story/_/id/34995300/f1-powered-mercedes-amg-one-sets-new-nurburgring-lap-record</a>. [Accessed 30 12 2022].</p>
+            <p id="ref10">[10] Driver61, "Different Corners & Techniques," [Online]. Available: <a href="https://driver61.com/uni/different-corner-technique/">https://driver61.com/uni/different-corner-technique/</a>. [Accessed 30 12 2022].</p>
+            <p id="ref11">[11] B.Beckman, "The physics of racing, part 5: Introduction to the racing line.," 1991. [Online]. Available: <a href="https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4">https://members.rennlist.com/951_racerx/PhysicsOfRacing05.pdf.4</a>. [Accessed 30 12 2022].</p>
+        </div>
+        <div class="column">
+            <p id="ref12">[12] S. S. F. B. Keith Bugeja, "Telemetry-based Optimisation for User Training in Racing Simulators," 09 2017. [Online]. Available: <a href="https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.">https://www.researchgate.net/publication/318679405_Telemetry-based_Optimisation_for_User_Training_in_Racing_Simulators.</a>. [Accessed 30 12 2022].</p>
+            <p id="ref13">[13] "Legal Notice," [Online]. Available: <a href="https://www.formula1.com/en/toolbar/legal-notices.html.">https://www.formula1.com/en/toolbar/legal-notices.html.</a>. [Accessed 30 12 2022].</p>
+            <p id="ref14">[14] RACEFANS, "Banned! Continuous Variable Transmission," 03 05 2007. [Online]. Available: <a href="https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/">https://www.racefans.net/2007/05/03/banned-continuously-variable-transmission-cvt/</a>. [Accessed 30 12 2022].</p>
+            <p id="ref15">[15] "Vehicle Technologies Office, internal combustion car basics," 22 11 2013. [Online]. Available: <a href="https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.">https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics#:~:text=The%20engine%20consists%20of%20a,motion%20drives%20the%20vehicle's%20wheels.</a>. [Accessed 30 12 2022].</p>
+            <p id="ref16">[16] ONOSOKKI, "Principle of speed measurement using GPS," [Online]. Available: <a href="https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm">https://www.onosokki.co.jp/English/hp_e/products/keisoku/automotive/lc8_principle.htm</a>. [Accessed 30 12 2022].</p>
+            <p id="ref17">[17] Wikipedia, "Understeer and oversteer," 03 04 2022. [Online]. Available: <a href="https://en.m.wikipedia.org/wiki/Understeer_and_oversteer">https://en.m.wikipedia.org/wiki/Understeer_and_oversteer</a>. [Accessed 30 12 2022].</p>
+            <p id="ref18">[18] KUNOS Simulazioni Srl , "Assetto Corsa," KUNOS Simulazioni Srl , 2018. [Online]. Available: <a href="https://www.assettocorsa.it/home-ac/">https://www.assettocorsa.it/home-ac/</a>. [Accessed 30 12 2022].</p>
+            <p id="ref19">[19] K. Hackett, "Assetto Corsa: the most realistic racing simulator ever," 2016. [Online]. Available: <a href="https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647">https://www.thenationalnews.com/arts/assetto-corsa-the-most-realistic-racing-simulator-ever-1.183647</a>. [Accessed 30 12 2022].</p>
+            <p id="ref20">[20] ACO, "Official website 24 Heures du Mans," ACO, [Online]. Available: <a href="https://www.24h-lemans.com/en">https://www.24h-lemans.com/en</a>. [Accessed 30 12 2022].</p>
+            <p id="ref21">[21] J. Leslie, "How The Monaco Grand Prix Circuit Has Changed Since Joining The F1 Calendar," 2013. [Online]. Available: <a href="https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/">https://www.carthrottle.com/post/how-the-monaco-grand-prix-circuit-has-changed-since-joining-the-f1-calendar/</a>. [Accessed 30 12 2022].</p>
+        </div>
+    </div>
     </body>
 </html>
 
